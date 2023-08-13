@@ -1,0 +1,113 @@
+function pop_up(url) {
+	newwindow=window.open(url,'name','height=525,width=385');
+	if (window.focus) {newwindow.focus()}
+	return false;
+}
+
+function popWindow(page,Name,w,h,top,left) {
+    childWindow = window.open(page,Name,"scrollbars=yes,resizable=no,width="+w+",height="+h+",top="+top+", left="+left+", status=no,location=no,toolbar=no,menubar=no");
+    childWindow.focus();
+}
+
+function open_win() {
+    window.open("case_key.html","_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, copyhistory=yes, width=385, height=525")
+}
+
+$(function(){
+  $(".datepicker").datepicker({
+	showButtonPanel: true,
+	changeMonth: true,
+	changeYear: true
+  });
+});
+
+
+function sortTable(th, n, th_type) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  // this refers to the th, so get the table id first
+  table_id = $(th).closest('table').attr('id');
+  table = document.getElementById(table_id);
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc";
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.getElementsByTagName("TR");
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 1; i < (rows.length - 1); i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      if(th_type == 'date') {
+		  x = stringToDate(rows[i].getElementsByTagName("TD")[n].innerText, "MM/DD/YYYY", "/");
+		  y = stringToDate(rows[i+1].getElementsByTagName("TD")[n].innerText, "MM/DD/YYYY", "/");
+		  if (dir == "asc") {
+			if (x > y) {
+			  //if so, mark as a switch and break the loop:
+			  shouldSwitch= true;
+			  break;
+			}
+		  } else if (dir == "desc") {
+			if (x < y) {
+			  //if so, mark as a switch and break the loop:
+			  shouldSwitch= true;
+			  break;
+			}
+		  }
+	  } else {
+		  x = rows[i].getElementsByTagName("TD")[n];
+		  y = rows[i + 1].getElementsByTagName("TD")[n];
+		  /*check if the two rows should switch place,
+		  based on the direction, asc or desc:*/
+		  if (dir == "asc") {
+			if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+			  //if so, mark as a switch and break the loop:
+			  shouldSwitch= true;
+			  break;
+			}
+		  } else if (dir == "desc") {
+			if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+			  //if so, mark as a switch and break the loop:
+			  shouldSwitch= true;
+			  break;
+			}
+		  }
+	  }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount ++;
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+
+function stringToDate(_date,_format,_delimiter)
+{
+	var formatLowerCase=_format.toLowerCase();
+	var formatItems=formatLowerCase.split(_delimiter);
+	var dateItems=_date.split(_delimiter);
+	var monthIndex=formatItems.indexOf("mm");
+	var dayIndex=formatItems.indexOf("dd");
+	var yearIndex=formatItems.indexOf("yyyy");
+	var month=parseInt(dateItems[monthIndex]);
+	month-=1;
+	var formatedDate = new Date(dateItems[yearIndex],month,dateItems[dayIndex]);
+	return formatedDate;
+}
+
