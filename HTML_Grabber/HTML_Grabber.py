@@ -23,28 +23,28 @@ def harvestData(readPath, caseKeywords, number):
 #Party/Attorney Info
 #"aria-live" is the indicator that I used since that's right above where the party/attorney info is
 #https://stackoverflow.com/a/16432254
-    for num in range(11):
-        if num != 7:
-            print(re.sub("[</td>&nbspr;]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 3)))))
+    for num in range(10):
+        if num != 6:
+            print(re.sub("[</]", " ", (re.sub("[td>&nbsp;rd]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)))))))
             
 
     #Case Summary Info
     for info in caseKeywords:
         print(re.sub("[</td>]", "", (str(linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
 
-harvestData(readPath, caseKeywords, 0)
 
 def formatExcelSheet(caseKeywords, writePath):
 #https://saturncloud.io/blog/how-to-append-a-pandas-dataframe-to-an-excel-sheet-a-comprehensive-guide/
     data = {}
     for keyword in range(0, len(caseKeywords)):
-        data[re.sub('[:"]', "", caseKeywords[keyword])] = ""
+        data[re.sub('[:]', "", caseKeywords[keyword])] = ""
     print(data)
 
 """    df = pd.DataFrame(data)
     df.to_excel(writePath)"""
 
 formatExcelSheet(caseKeywords, writePath)
+harvestData(readPath, caseKeywords, 0)
 
 
 #DEV NOTES
