@@ -7,12 +7,13 @@ from datetime import date
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
 readPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts.html" 
 writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts Output.xlsx"
-companyName = "MIDLAND"  #PLACEHOLDER
+companyName = ""  #PLACEHOLDER
 beginDate = "Year/Month/Date" #PLACEHOLDER
 caseKeywords = ["Case Number:", "Court:", "Case Caption:", "Judge:", "Filed Date:", "Case Type", "Amount:"]
+data = {}
 
 def searchHTML(readPath, searchFor):
-#https://pynative.com/python-search-for-a-string-in-text-files/#:~:text=Open%20a%20file%20in%20a,current%20line%20and%20line%20number.
+    #Source: https://pynative.com/python-search-for-a-string-in-text-files/#:~:text=Open%20a%20file%20in%20a,current%20line%20and%20line%20number.
     with open(readPath, 'r') as file:
         for lineNumber, line in enumerate(file):
             if str(searchFor) in line:
@@ -20,31 +21,35 @@ def searchHTML(readPath, searchFor):
                 break
 
 def harvestData(readPath, caseKeywords, number):
-#Party/Attorney Info
-#"aria-live" is the indicator that I used since that's right above where the party/attorney info is
-#https://stackoverflow.com/a/16432254
+    #Party/Attorney Info (ln 357 - ln 367 in test pag)
+    #"aria-live" is the indicator because of its close proximity to the Part/Attorney Info
+    #Source: https://stackoverflow.com/a/16432254
     for num in range(10):
         if num != 6:
-            print(re.sub("[</]", " ", (re.sub("[td>&nbsp;rd]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)))))))
-            
+            #replace unwanted characters
+            #print(re.sub("[</]", " ", (re.sub("[td>&nbsp;rd]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)))))))
+            pass
 
-    #Case Summary Info
+    #Case Summary Info (ln 277 - ln 302 in test page)
     for info in caseKeywords:
-        print(re.sub("[</td>]", "", (str(linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
+        #Add the data into the "data" dictionary after removing unwanted characters
+        data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
+    return str(re.sub("[</]", " ", (re.sub("[td>&nbsp;rd]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + 4)))))))
 
 
 def formatExcelSheet(caseKeywords, writePath):
-#https://saturncloud.io/blog/how-to-append-a-pandas-dataframe-to-an-excel-sheet-a-comprehensive-guide/
-    data = {}
+    #Source: https://saturncloud.io/blog/how-to-append-a-pandas-dataframe-to-an-excel-sheet-a-comprehensive-guide/
+    #Adds new dictionary keys for each case Keyword
     for keyword in range(0, len(caseKeywords)):
-        data[re.sub('[:]', "", caseKeywords[keyword])] = ""
-    print(data)
+        data[re.sub('[:]', "", caseKeywords[keyword])] = []
 
-"""    df = pd.DataFrame(data)
-    df.to_excel(writePath)"""
+
 
 formatExcelSheet(caseKeywords, writePath)
-harvestData(readPath, caseKeywords, 0)
+print("\n" + "Data 1: " + str(data))
+companyName = harvestData(readPath, caseKeywords, 0)
+print("\n" + "Data 2: " + str(data))
+print("\n" + "Company name: " + companyName)
 
 
 #DEV NOTES
