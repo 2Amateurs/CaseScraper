@@ -5,17 +5,20 @@ from openpyxl import load_workbook
 from datetime import date
 
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
-readPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts.html" 
+readPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts.html" #I'm using Case# 23CV17209 for testing
 writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts Output.xlsx"
 companyName = "" #PLACEHOLDER
 beginDate = "" #PLACEHOLDER
 endDate = "" #PLACEHOLDER
 caseKeywords = ["Case Number:", "Court:", "Case Caption:", "Judge:", "Filed Date:", "Case Type", "Amount:", "Bannanna:"] #"Bannanna:" was/is used to test for unfindable keywords
+partyCaseKeywords = ["Plaintiff Name", "Plaintiff Address", "Party", "Attorney", "Attorney Address", "Court ID", "Defendant Name", "Defendant Address", "Defendant Party"]
 data = {}
 
-def formatExcelSheet(caseKeywords, writePath):
+def createExcelSheet(caseKeywords, partyCaseKeywords, writePath):
     #Source: https://saturncloud.io/blog/how-to-append-a-pandas-dataframe-to-an-excel-sheet-a-comprehensive-guide/
     #Adds new dictionary keys for each case Keyword
+    for keyword in range(0, len(partyCaseKeywords)):
+        data[re.sub('[:]', "", partyCaseKeywords[keyword])] = []
     for keyword in range(0, len(caseKeywords)):
         data[re.sub('[:]', "", caseKeywords[keyword])] = []
 
@@ -27,16 +30,8 @@ def searchHTML(readPath, searchFor):
                 return(lineNumber)
                 break
 
-def harvestData(readPath, caseKeywords):
-    #Party/Attorney Info (ln 357 - ln 367 in test pag)
-    #"aria-live" is the indicator because of its close proximity to the Part/Attorney Info
-    #Source: https://stackoverflow.com/a/16432254
-    for num in range(10):
-        if num != 6:
-            #replace unwanted characters
-            print(re.sub("[;/]", " ", (re.sub("[<td>&nbspr]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)))))))
-            pass
-
+def harvestData(readPath, caseKeywords, partyCaseKeywords):
+    linebreak = 0
     #Case Summary Info (ln 277 - ln 302 in test page)
     for info in caseKeywords:
         #Check and see if caseKeyword is in the HTML file
@@ -45,23 +40,37 @@ def harvestData(readPath, caseKeywords):
             data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
         else:
             data[re.sub("[:]", "", info)].append("")
-    return str(re.sub("[</]", " ", (re.sub("[td>&nbsp;rd]", "", (linecache.getline(readPath, searchHTML(readPath, "aria-live") + 4))))))
+
+#Party/Attorney Info (ln 357 - ln 367 in test pag)
+    #"aria-live" is the indicator because of its close proximity to the Part/Attorney Info
+    #Source: https://stackoverflow.com/a/16432254
+    for num in range(0, len(partyCaseKeywords)):
+        if str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)) != '</tr><tr role="row" class="even">\n':
+            #replace unwanted characters
+            #print(re.sub("[;/]", " ", (re.sub("[<td>&nbspr]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4)))))))
+            data[partyCaseKeywords[num]].append((re.sub("[;/]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))))
+        else:
+            linebreak = 1
 
 
 
-formatExcelSheet(caseKeywords, writePath)
-print("\n" + "Data 1: " + str(data))
-companyName = harvestData(readPath, caseKeywords)
-print("\n" + "Data 2: " + str(data))
-print("\n" + "Company name: " + companyName)
+createExcelSheet(caseKeywords, partyCaseKeywords, writePath)
+print("\n" + "Created (but empty) Excel Sheet: ")
+for key, value in data.items():
+    print(key, value)
+
+print("\n" + "Harvested Data: ")
+harvestData(readPath, caseKeywords, partyCaseKeywords)
+for key, value in data.items():
+    print(key, value)
 
 
 #DEV NOTES/TO DO
 
-#Find a better way to consolidate the data from Party/Attorney Info and Case Summary Info
 #Add in a way to create a new excel sheet based off of input data
 #Auto format the new excel sheet
 #Create a way to make and add to the dictionary without having to access and modify the code
 #Actually take the dictionary and export it into excel
+#If possible, make the dictionary consolidation much cleaner
 
-#TLDR: MAKE IT AS AUTOMATED AS POSSIBLE!#TLDR: MAKE IT AS AUTOMATED AND EFFICIENT AS POSSIBLE!
+#TLDR: MAKE IT AS AUTOMATED AND EFFICIENT AS POSSIBLE!
