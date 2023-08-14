@@ -2,24 +2,20 @@ import linecache
 import re
 import pandas as pd
 import os
-from openpyxl import load_workbook
-from datetime import date
 
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
 readPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts " #I'm using Case# 23CV17209 for testing
-writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts Output.xlsx"
-companyName = "" #PLACEHOLDER
-beginDate = "" #PLACEHOLDER
-endDate = "" #PLACEHOLDER
-caseKeywords = ["Case Number:", "Court:", "Case Caption:", "Judge:", "Filed Date:", "Case Type", "Nut", "Amount:", "Bannanna:"] #"Nut" and "Bannanna:" was/is used to test for unfindable keywords
+writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Output\ " #The space here is NECESSARY so that it can terminate the string 
+countyName = "Hamilton" #PLACEHOLDER
+companyName = "Midland" #PLACEHOLDER
+beginDate = "2023-8-6" #PLACEHOLDER
+endDate = "2023-8-12" #PLACEHOLDER
+caseKeywords = ["Case Number:", "Court:", "Case Caption:", "Judge:", "Filed Date:", "Case Type", "Nuts", "Amount:", "Bananas:"] #"Nut" and "Bannanna:" was/is used to test for unfindable keywords
 partyCaseKeywords = ["Plaintiff Name", "Plaintiff Address", "Party", "Attorney", "Attorney Address", "Court ID", "Defendant Name", "Defendant Address", "Defendant Party"]
 data = {}
 
-def createExcelSheet(caseKeywords, partyCaseKeywords, writePath):
-    #Source: https://saturncloud.io/blog/how-to-append-a-pandas-dataframe-to-an-excel-sheet-a-comprehensive-guide/
-    #https://sparkbyexamples.com/pandas/pandas-write-to-excel-with-examples/#:~:text=Use%20pandas%20to_excel()%20function,sheet%20name%20to%20write%20to.
-    #https://pythonbasics.org/write-excel/
-    #https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html
+def createDictionary(caseKeywords, partyCaseKeywords):
+    #Source: https://sparkbyexamples.com/pandas/pandas-write-to-excel-with-examples/#:~:text=Use%20pandas%20to_excel()%20function,sheet%20name%20to%20write%20to.
     #Adds new dictionary keys for each case Keyword
     for keyword in range(0, len(partyCaseKeywords)):
         data[re.sub('[:]', "", partyCaseKeywords[keyword])] = []
@@ -57,9 +53,11 @@ def harvestData(readPath, caseKeywords, partyCaseKeywords):
             linebreak = 1
             data[partyCaseKeywords[num]].append((re.sub("[;/]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 5))))))))
 
+def exportToExcel(data, writePath, countyName, companyName, beginDate, endDate):
+    dataFrame = pd.DataFrame(data)
+    dataFrame.to_excel(str(re.sub("[ ]", "", writePath)) + " " + countyName + " " + companyName + " " + beginDate + " to " + endDate + ".xlsx")
 
-
-createExcelSheet(caseKeywords, partyCaseKeywords, writePath)
+createDictionary(caseKeywords, partyCaseKeywords)
 print("\n" + "Created (but empty) Excel Sheet: ")
 for key, value in data.items():
     print(key, value)
@@ -69,14 +67,4 @@ for number in range(1, 2 + 1):  # this is used since the current directory has o
     harvestData(readPath + str(number) + ".html", caseKeywords, partyCaseKeywords)
 for key, value in data.items():
     print(key, value)
-
-
-#DEV NOTES/TO DO
-
-#Add in a way to create a new excel sheet based off of input data
-#Auto format the new excel sheet
-#Create a way to make and add to the dictionary without having to access and modify the code
-#Actually take the dictionary and export it into excel
-#If possible, make the dictionary consolidation much cleaner
-
-#TLDR: MAKE IT AS AUTOMATED AND EFFICIENT AS POSSIBLE!
+exportToExcel(data, writePath, countyName, companyName, beginDate, endDate)
