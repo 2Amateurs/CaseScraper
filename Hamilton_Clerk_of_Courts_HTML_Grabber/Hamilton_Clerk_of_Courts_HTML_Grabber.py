@@ -4,8 +4,8 @@ import pandas as pd
 import os
 
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
-readPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Hamilton County Clerk of Courts " #I'm using Case# 23CV17209 for testing
-writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber\Output\ " #The space here is NECESSARY so that it can terminate the string 
+readPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Hamilton_Clerk_of_Courts_HTML_Grabber\Hamilton County Clerk of Courts " #I'm using Case# 23CV17209 for testing
+writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Hamilton_Clerk_of_Courts_HTML_Grabber\Output\ " #The space here is NECESSARY so that it can terminate the string 
 countyName = "Hamilton" #PLACEHOLDER
 companyName = "Midland" #PLACEHOLDER
 beginDate = "2023-8-6" #PLACEHOLDER
@@ -36,8 +36,11 @@ def harvestData(readPath, caseKeywords, partyCaseKeywords):
     for info in caseKeywords:
         #Check and see if caseKeyword is in the HTML file
         if str(searchHTML(readPath, info)) != "None":
-            #Add the data into the "data" dictionary after removing unwanted characters
-            data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
+            if info == "Court:":
+                data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))) + "Court of " + countyName + " County")
+            else:
+                #Add the data into the "data" dictionary after removing unwanted characters
+                data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
         else:
             data[re.sub("[:]", "", info)].append("")
 

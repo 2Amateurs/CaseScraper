@@ -1,0 +1,124 @@
+﻿body {
+    font-size: .875rem;
+}
+
+.divDebug {
+    font-size: 8pt;
+    color: #747474;
+}
+
+.myTabContent {
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.aSearchTabs {
+    min-height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fakeLink {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+}
+
+.fakeLink:hover {
+    color:#0056b3;
+    text-decoration: underline;
+}
+
+span.nav-link:hover {
+    cursor: pointer;
+    background-color: #BCBCBC;
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0056b3;
+}
+
+.nav-pills .nav-link {
+    border-radius: unset;
+    color:black;
+}
+
+.dropdown-item {
+    font-size: .875rem;
+}
+
+.navbar-text.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+form input[type=text]:not(#Username){
+    text-transform:uppercase !important;
+}
+
+.please-scroll {
+    height: calc(100vh - 115px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1199px) {
+    .please-scroll {
+        height:100%;
+        overflow-x: unset;
+        overflow-y: unset;
+    }
+    #docketImageViewer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        font-size: .575rem;
+    }
+
+    .navbar-text {
+        font-size: 1rem;
+    }
+
+   /* #navbarTitle {
+        font-size: 12pt;
+    }*/
+
+}
+
+@media (min-width: 1400px) {
+    .container-xxl{
+        max-width:1550px;
+    }
+}
+
+@media print{
+    #caseInfoMenuBar {
+        display: none !important;
+    }
+
+    #Results {
+        height: 100% !important;
+    }
+
+    #trSearchFilters {
+        display: none !important;
+    }
+
+    .divDebug {
+        display: none !important;
+    }
+}
