@@ -12,16 +12,23 @@ companyName = "Midland" #PLACEHOLDER
 beginDate = "2023-8-6" #PLACEHOLDER
 endDate = "2023-8-12" #PLACEHOLDER
 caseSummaryKeywords = ["CREDITOR", "DEBTOR", "File Date:", "Nuts", "Court:", "Bananas:"] #"Nut" and "Bannanna:" was/is used to test for unfindable keywords
-casePartyKeywords = ["Address", "Attorney", "Nuts", "Address", "Bananas:"]
+casePartyKeywords = ["Plaintiff Address", "Attorney", "Nuts", "Defendant Address", "Bananas:"]
 data = {}
 
 def createDictionary(caseSummaryKeywords, casePartyKeywords):
     #Source: https://sparkbyexamples.com/pandas/pandas-write-to-excel-with-examples/#:~:text=Use%20pandas%20to_excel()%20function,sheet%20name%20to%20write%20to.
     #Adds new dictionary keys for each case Keyword
-    for keyword in range(0, len(casePartyKeywords)):
+    for keyword in range(0, len(casePartyKeywords) - 1):
         data[re.sub('[:]', "", casePartyKeywords[keyword])] = []
-    for keyword in range(0, len(caseSummaryKeywords)):
-        data[re.sub('[:]', "", caseSummaryKeywords[keyword])] = []
+    for keyword in range(0, len(caseSummaryKeywords) - 1):
+        data[re.sub('[:]', "", caseSummaryKeywords[keyword])] = []        
+        print(str(keyword))
+        print(casePartyKeywords[keyword])
+        # if str(keyword[-2]) != "s":
+        #     data[re.sub('[:]', "", caseSummaryKeywords[keyword])] = []
+        # else:
+        #     print("NOPE")
+
 
 
 
@@ -44,7 +51,6 @@ def searchHTML(readPath, searchFor):
                 return(lineNumber)
                 break
 
-#FIX DUPLICATE ADDRESS GETTING REMOVED FROM CREATE DICT.
 createDictionary(caseSummaryKeywords, casePartyKeywords)
 filenum = "3"
 linenum = searchHTML(readPartyPath + "Party " + str(filenum) + ".html", "Address:") + 1
@@ -57,7 +63,8 @@ for info in casePartyKeywords:
             #Slicing 1st character off of the beginning of the string. Source: https://stackoverflow.com/a/64976733 AND https://www.scaler.com/topics/python-slice/ AND https://docs.python.org/3/library/functions.html?highlight=slice#slice
             #print(line)
             line = line[1:]
-        if line[0] == "s":
+        print(line)
+        if line[0] == "s": #Source: https://stackoverflow.com/questions/8848294/how-to-get-char-from-string-by-index
             line = line[3:]
         elif line[0]== "<":
             data[info].append("")
@@ -68,7 +75,7 @@ for info in casePartyKeywords:
     print(line + "\n")
 print(data)
 
-
+#MAKE SURE TO REMOVE THE "Plaintiff" and "Defendant" FROM THE BEGINNING OF THE ADDRESSES IN caseParty
 
 
 #def harvestData(readPath, caseKeywords):

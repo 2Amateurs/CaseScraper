@@ -48,13 +48,14 @@ def harvestData(readPath, caseKeywords, partyCaseKeywords):
     #"aria-live" is the indicator because of its close proximity to the Part/Attorney Info
     #Source: https://stackoverflow.com/a/16432254
     for num in range(0, len(partyCaseKeywords)):
-        if str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)) != '</tr><tr role="row" class="even">\n':
-            #replace unwanted characters
-            #print(re.sub("[;/]", " ", (re.sub("[<td>&nbspr]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4)))))))
-            data[partyCaseKeywords[num]].append((re.sub("[;/]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))))
+        print(str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4)))
+        if str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)) != '</tr><tr role=3D"row" class=3D"even">' + "\n" or "":
+        #if re.sub("[;/=]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))[:4] 
+            data[partyCaseKeywords[num]].append((re.sub("[;r/=]", " ", (re.sub("[<td>&nbsp\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))))
         else:
             linebreak = 1
-            data[partyCaseKeywords[num]].append((re.sub("[;/]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 5))))))))
+            print("linebreak")
+            data[partyCaseKeywords[num]].append((re.sub("[;/=]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))))
 
 def exportToExcel(data, writePath, countyName, companyName, beginDate, endDate):
     dataFrame = pd.DataFrame(data)
@@ -67,7 +68,7 @@ for key, value in data.items():
 print("\n" + "Harvested Data: ")
 #for number in range(1, len(os.listdir(r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber")) + 1):
 for number in range(1, 2 + 1):  # this is used since the current directory has other files that'll break the for loop
-    harvestData(readPath + str(number) + ".html", caseKeywords, partyCaseKeywords)
+    harvestData(readPath + str(number) + ".mhtml", caseKeywords, partyCaseKeywords)
 for key, value in data.items():
     print(key, value)
 exportToExcel(data, writePath, countyName, companyName, beginDate, endDate)
