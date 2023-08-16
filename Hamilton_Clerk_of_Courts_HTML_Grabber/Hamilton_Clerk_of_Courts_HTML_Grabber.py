@@ -2,10 +2,12 @@ import linecache
 import re
 import pandas as pd
 import os
+import time
+start_time = time.time()
 
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
-readPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Hamilton_Clerk_of_Courts_HTML_Grabber\Hamilton County Clerk of Courts " #I'm using Case# 23CV17209 for testing
-writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Hamilton_Clerk_of_Courts_HTML_Grabber\Output\ " #The space here is NECESSARY so that it can terminate the string 
+readPath = r"C:\Users\profs\Downloads\hamilton data\data\Hamilton County Clerk of Courts " #I'm using Case# 23CV17209 for testing
+writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Hamilton_Clerk_of_Courts_HTML_Grabber\ " #The space here is NECESSARY so that it can terminate the string 
 countyName = "Hamilton" #PLACEHOLDER
 companyName = "Midland" #PLACEHOLDER
 beginDate = "2023-8-6" #PLACEHOLDER
@@ -37,10 +39,10 @@ def harvestData(readPath, caseKeywords, partyCaseKeywords):
         #Check and see if caseKeyword is in the HTML file
         if str(searchHTML(readPath, info)) != "None":
             if info == "Court:":
-                data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))) + "Court of " + countyName + " County")
+                data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>%\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))) + "Court of " + countyName + " County")
             else:
                 #Add the data into the "data" dictionary after removing unwanted characters
-                data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
+                data[re.sub("[:]", "", info)].append(re.sub("[/]", " ", re.sub("[<td>%\n]", "", (linecache.getline(readPath, searchHTML(readPath, info) + 2)))))
         else:
             data[re.sub("[:]", "", info)].append("")
 
@@ -48,14 +50,21 @@ def harvestData(readPath, caseKeywords, partyCaseKeywords):
     #"aria-live" is the indicator because of its close proximity to the Part/Attorney Info
     #Source: https://stackoverflow.com/a/16432254
     for num in range(0, len(partyCaseKeywords)):
-        print(str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4)))
-        if str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + 4)) != '</tr><tr role=3D"row" class=3D"even">' + "\n" or "":
+        line = str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))
+        print("\n" + line[-2])
+        while len(line) > 1 and line[-2] == "=":
+            linebreak += 1
+            line = str(line[:-2]) + str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))
+        print(line + "|")
+        if str(line) != '</tr><tr role=3D"row" class=3D"even">' + "\n" and str(line) != "" and str(line) != '<td colspan=3D"3"></td>' + "\n":
         #if re.sub("[;/=]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))[:4] 
-            data[partyCaseKeywords[num]].append((re.sub("[;r/=]", " ", (re.sub("[<td>&nbsp\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))))
+            print("no line")
+            data[partyCaseKeywords[num]].append((re.sub("[;r/=]", " ", (re.sub("[<td>&nbsp%\n]", "", line)))))
         else:
-            linebreak = 1
+            linebreak += 1
             print("linebreak")
-            data[partyCaseKeywords[num]].append((re.sub("[;/=]", " ", (re.sub("[<td>&nbspr\n]", "", (str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))))))))
+            line = str(linecache.getline(readPath, searchHTML(readPath, "aria-live") + num + linebreak + 4))
+            data[partyCaseKeywords[num]].append((re.sub("[;/=]", " ", (re.sub("[<td>&nbspr%\n]", "", line)))))
 
 def exportToExcel(data, writePath, countyName, companyName, beginDate, endDate):
     dataFrame = pd.DataFrame(data)
@@ -66,9 +75,12 @@ print("\n" + "Created (but empty) Excel Sheet: ")
 for key, value in data.items():
     print(key, value)
 print("\n" + "Harvested Data: ")
-#for number in range(1, len(os.listdir(r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber")) + 1):
-for number in range(1, 2 + 1):  # this is used since the current directory has other files that'll break the for loop
+#String addition but easier.  Source: https://stackoverflow.com/questions/997797/what-does-s-mean-in-a-python-format-string
+for number in range(1, len(os.listdir(r"C:\Users\profs\Downloads\hamilton data\data")) + 1):
+#for number in range(1, 3 + 1):  # this is used since the current directory has other files that'll break the for loop
     harvestData(readPath + str(number) + ".mhtml", caseKeywords, partyCaseKeywords)
 for key, value in data.items():
-    print(key, value)
+    print(key, value)    
 exportToExcel(data, writePath, countyName, companyName, beginDate, endDate)
+
+print("Process finished --- %s seconds ---" % (time.time() - start_time))

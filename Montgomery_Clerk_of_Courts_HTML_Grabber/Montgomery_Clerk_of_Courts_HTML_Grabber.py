@@ -53,14 +53,14 @@ def searchHTML(readPath, searchFor):
 
 createDictionary(caseSummaryKeywords, casePartyKeywords)
 filenum = "3"
-linenum = searchHTML(readPartyPath + "Party " + str(filenum) + ".html", "Address:") + 1
-line = linecache.getline(readPartyPath + "Party " + str(filenum) + ".html", linenum)
+linenum = searchHTML(readPartyPath + "Party " + str(filenum) + ".mhtml", "Address:") + 1
+line = linecache.getline(readPartyPath + "Party " + str(filenum) + ".mhtml", linenum)
 #print(line)
 for info in casePartyKeywords:
     print(line.find(info))
     if line.find(info) != -1:
         for counter in range(0, line.find(info) + len(info) + 1):
-            #Slicing 1st character off of the beginning of the string. Source: https://stackoverflow.com/a/64976733 AND https://www.scaler.com/topics/python-slice/ AND https://docs.python.org/3/library/functions.html?highlight=slice#slice
+            #Slicing 1st character off of the beginning of the string. Source: https://stackoverflow.com/a/64976733 AND https://www.scaler.com/topics/python-slice/ AND https://docs.python.org/3/library/functions.mhtml?highlight=slice#slice
             #print(line)
             line = line[1:]
         print(line)
@@ -115,8 +115,8 @@ print(data)
 
 #for number in range(1, len(os.listdir(r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\HTML_Grabber")) + 1):
 #for number in range(1, 2 + 1):  # this is used since the current directory has other files that'll break the for loop
-#    harvestData(readPartyPath + "Party " + str(number) + ".html", partyCaseKeywords)
-#    harvestData(readSummaryPath + "Summary " + str(number) + ".html", caseSummaryKeywords)
+#    harvestData(readPartyPath + "Party " + str(number) + ".mhtml", partyCaseKeywords)
+#    harvestData(readSummaryPath + "Summary " + str(number) + ".mhtml", caseSummaryKeywords)
 
 
 #for key, value in data.items():
