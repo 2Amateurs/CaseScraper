@@ -1,24 +1,21 @@
 From: <Saved by Blink>
-Snapshot-Content-Location: https://pro.mcohio.org/
+Snapshot-Content-Location: https://pro.mcohio.org/Default.cshtml
 Subject: Montgomery County PROv3
-Date: Tue, 15 Aug 2023 20:09:00 -0000
+Date: Wed, 16 Aug 2023 15:24:45 -0000
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----"
+	boundary="----MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----"
 
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/html
-Content-ID: <frame-43D38044CFA49AABFAA6D616A1A70746@mhtml.blink>
+Content-ID: <frame-C5F2A9278D059D0F7B1C95D6DB3F4585@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://pro.mcohio.org/
+Content-Location: https://pro.mcohio.org/Default.cshtml
 
 <!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
-ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
-css" href=3D"cid:css-71d219cc-0a0b-4b22-8423-cee0cdaac74b@mhtml.blink" /><l=
-ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2dd5060a-3001-403b=
--ac05-6a41e7cb90ab@mhtml.blink" />
+ntent=3D"text/html; charset=3DUTF-8">
    =20
     <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
 =3D1, shrink-to-fit=3Dno">
@@ -43,7 +40,7 @@ el=3D"stylesheet">
    =20
 
 </head>
-<body style=3D"" class=3D"">
+<body class=3D"" style=3D"">
    =20
     <nav class=3D"navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75=
  fixed-top py-0 px-1" style=3D"">
@@ -63,20 +60,20 @@ a-label=3D"Toggle navigation">
 
         <div class=3D"collapse navbar-collapse" id=3D"collapsibleNavbar">
             <span id=3D"lblCaseTitle" class=3D"navbar-text" style=3D"color:=
- #d9dcdd;">MIDLAND CREDIT MANAGEMANT, INC. vs JEFFREY BANG JR</span>
+ #d9dcdd;">PALISADES ACQUISITION XVI LLC vs NED HUNT</span>
 
             <ul class=3D"navbar-nav ms-auto">
                 <li class=3D"nav-item dropdown">
                     <a class=3D"nav-link dropdown-toggle pb-0" href=3D"http=
-s://pro.mcohio.org/#" id=3D"navbarDropdown" role=3D"button" data-bs-toggle=
-=3D"dropdown" style=3D"margin-top:-6px;">
+s://pro.mcohio.org/Default.cshtml#" id=3D"navbarDropdown" role=3D"button" d=
+ata-bs-toggle=3D"dropdown" style=3D"margin-top:-6px;">
                         <div class=3D"m-0 p-0" style=3D"display:inline-bloc=
 k; font-size:11pt; line-height:16px;">
                             <span id=3D"userDomain" style=3D"color: #FFFFFF=
 ;">Welcome Internet User</span><br>
                             <span class=3D"m-0 p-0" style=3D"font-size: 8pt=
 ; text-align: right; display: block; color: #FFFFFF; " id=3D"userIPAddress"=
->76.243.42.82</span>
+>71.79.6.250</span>
                         </div>
                     </a>
 
@@ -95,7 +92,7 @@ ng.ico" style=3D"margin-top:-3px;"> E-Filing Portal
                        =20
                         <hr class=3D"dropdown-divider">
                                 <a class=3D"dropdown-item" id=3D"ddLogin" h=
-ref=3D"https://pro.mcohio.org/#">
+ref=3D"https://pro.mcohio.org/Default.cshtml#">
                                     <i class=3D"fa-solid fa-right-to-bracke=
 t"></i> Login
                                 </a>
@@ -113,34 +110,35 @@ t"></i> Login
                     <li class=3D"nav-item" id=3D"navHome" role=3D"presentat=
 ion">
                         <a class=3D"nav-link" data-bs-toggle=3D"tab" href=
-=3D"https://pro.mcohio.org/#Home" aria-selected=3D"false" role=3D"tab" tabi=
-ndex=3D"-1"><i class=3D"fas fa-search"></i> Search</a>
+=3D"https://pro.mcohio.org/Default.cshtml#Home" aria-selected=3D"false" rol=
+e=3D"tab" tabindex=3D"-1"><i class=3D"fas fa-search"></i> Search</a>
                     </li>
                     <li class=3D"nav-item" id=3D"navResults" role=3D"presen=
 tation">
                         <a class=3D"nav-link" data-bs-toggle=3D"tab" href=
-=3D"https://pro.mcohio.org/#Results" aria-selected=3D"false" role=3D"tab" t=
-abindex=3D"-1"><i class=3D"fas fa-list"></i> Results</a>
+=3D"https://pro.mcohio.org/Default.cshtml#Results" aria-selected=3D"false" =
+role=3D"tab" tabindex=3D"-1"><i class=3D"fas fa-list"></i> Results</a>
                     </li>
                     <li class=3D"nav-item" id=3D"navCase" role=3D"presentat=
 ion">
                         <a class=3D"nav-link active" data-bs-toggle=3D"tab"=
- href=3D"https://pro.mcohio.org/#Case" aria-selected=3D"true" role=3D"tab">=
-<i class=3D"fas fa-balance-scale"></i> <span id=3D"lblCaseInfo">2023 CVF 00=
-949 W</span></a>
+ href=3D"https://pro.mcohio.org/Default.cshtml#Case" aria-selected=3D"true"=
+ role=3D"tab"><i class=3D"fas fa-balance-scale"></i> <span id=3D"lblCaseInf=
+o">2023 CJ 222903</span></a>
                     </li>
                     <li class=3D"nav-item d-none" id=3D"navJudgeCal" role=
 =3D"presentation">
                         <a class=3D"nav-link" data-bs-toggle=3D"tab" href=
-=3D"https://pro.mcohio.org/#JudgesCalendar" aria-selected=3D"false" tabinde=
-x=3D"-1" role=3D"tab"><i class=3D"fa fa-gavel fa-flip-horizontal"></i> Judg=
-e's Calendar</a>
+=3D"https://pro.mcohio.org/Default.cshtml#JudgesCalendar" aria-selected=3D"=
+false" tabindex=3D"-1" role=3D"tab"><i class=3D"fa fa-gavel fa-flip-horizon=
+tal"></i> Judge's Calendar</a>
                     </li>
                     <li class=3D"nav-item d-none" id=3D"navAttyDetail" role=
 =3D"presentation">
                         <a class=3D"nav-link" data-bs-toggle=3D"tab" href=
-=3D"https://pro.mcohio.org/#AttorneyDetail" aria-selected=3D"false" tabinde=
-x=3D"-1" role=3D"tab"><i class=3D"fa fa-user-tie"></i> Attorney Detail</a>
+=3D"https://pro.mcohio.org/Default.cshtml#AttorneyDetail" aria-selected=3D"=
+false" tabindex=3D"-1" role=3D"tab"><i class=3D"fa fa-user-tie"></i> Attorn=
+ey Detail</a>
                     </li>
                 </ul>
             </div>
@@ -149,8 +147,8 @@ x=3D"-1" role=3D"tab"><i class=3D"fa fa-user-tie"></i> Attorney Detail</a>
         <div class=3D"row">
             <div id=3D"mainTabContainer" class=3D"col-12 mt-0 tab-content">
                =20
-<div class=3D"tab-pane myTabContent pt-3" id=3D"Home" style=3D"height: 783p=
-x;" role=3D"tabpanel">
+<div class=3D"tab-pane myTabContent pt-3" id=3D"Home" role=3D"tabpanel" sty=
+le=3D"height: 853px;">
     <div class=3D"row mb-3">
         <div class=3D"col-md-8">
             <div class=3D"row">
@@ -181,13 +179,13 @@ lass=3D"img-fluid" alt=3D"Mike Foley, Clerk of Courts">
 =3D"tablist">
     <li class=3D"nav-item" id=3D"genSearch" role=3D"presentation">
         <a class=3D"nav-link aSearchTabs active" data-bs-toggle=3D"tab" hre=
-f=3D"https://pro.mcohio.org/#search1" aria-selected=3D"true" role=3D"tab">G=
-eneral Search</a>
+f=3D"https://pro.mcohio.org/Default.cshtml#search1" aria-selected=3D"true" =
+role=3D"tab">General Search</a>
     </li>
     <li class=3D"nav-item" id=3D"attSearch" role=3D"presentation">
         <a class=3D"nav-link aSearchTabs" data-bs-toggle=3D"tab" href=3D"ht=
-tps://pro.mcohio.org/#search2" aria-selected=3D"false" tabindex=3D"-1" role=
-=3D"tab">Attorney Search</a>
+tps://pro.mcohio.org/Default.cshtml#search2" aria-selected=3D"false" tabind=
+ex=3D"-1" role=3D"tab">Attorney Search</a>
     </li>
    =20
 </ul>
@@ -446,8 +444,8 @@ ce .
     </div>
 </div>
 
-<div class=3D"tab-pane fade myTabContent" id=3D"Results" style=3D"height: 7=
-83px;" role=3D"tabpanel">
+<div class=3D"tab-pane fade myTabContent" id=3D"Results" role=3D"tabpanel" =
+style=3D"height: 853px;">
 
 <table class=3D"table table-sm">
     <thead>
@@ -458,8 +456,8 @@ ce .
         </tr>
     </thead>
     <tbody>
-        <tr><td id=3D"tdSearchParameters">case_number =3D 2023 CVF 00949 w;=
- company_name =3D Midland; searchType =3D general</td>
+        <tr><td id=3D"tdSearchParameters">company_name =3D Palisade; begin_=
+date =3D 2023-08-06; end_date =3D 2023-08-13; searchType =3D general</td>
 <td class=3D"text-end"><span style=3D"cursor:pointer;"><u>Filters &gt;&gt;<=
 /u></span></td></tr>
         <tr id=3D"trSearchFilters" style=3D"display:none;">
@@ -601,7 +599,7 @@ n" id=3D"btnRemoveFilters">Reset Search</button>               =20
     <table class=3D"table table-sm table-hover">
         <thead>
             <tr class=3D"table-primary"><th colspan=3D"6">Main Index<span i=
-d=3D"MAINResultCount" class=3D"float-end">1 Records Returned</span></th></t=
+d=3D"MAINResultCount" class=3D"float-end">2 Records Returned</span></th></t=
 r>
             <tr class=3D"table-warning noselect" style=3D"cursor:pointer;">=
 <th id=3D"MAINthCaseNumber">Case Number</th>
@@ -613,9 +611,12 @@ r>
 </tr>
         </thead>
         <tbody id=3D"tblSearchResults"><tr style=3D"cursor:pointer;"><td>20=
-23 CVF 00949 W</td><td>CONTRACTS (MCCVF)</td><td>MIDLAND CREDIT MANAGEMANT,=
- INC.</td><td></td><td class=3D"text-success">OPEN</td><td>PLAINTIFF</td></=
-tr></tbody>
+23 CJ 222903</td><td>CERTIFICATE OF JUDGMENT TO STAY FROM ANOTHER OHIO COUR=
+T (CJS)</td><td>PALISADES ACQUISITION XVI LLC</td><td></td><td class=3D"tex=
+t-success">OPEN</td><td>CREDITOR</td></tr><tr style=3D"cursor:pointer;"><td=
+>2023 CV 04186</td><td>MORTGAGE FORECLOSURE (MF)</td><td>PALISADES COLLECTI=
+ON LLC</td><td></td><td class=3D"text-success">OPEN</td><td>DEFENDANT</td><=
+/tr></tbody>
 </table>
 </div>
 <br>
@@ -628,9 +629,8 @@ tr></tbody>
             <tr class=3D"table-warning noselect"><th>Party / Case Title</th=
 ><th>Case Number</th></tr>
         </thead>
-        <tbody id=3D"tblCVHistoricalResults"><tr><td colspan=3D"2">Records =
-Not Searched. (must search by First Name and Last Name or by Company Name)<=
-/td></tr></tbody>
+        <tbody id=3D"tblCVHistoricalResults"><tr><td colspan=3D"2" class=3D=
+"text-center">No Records Found.</td></tr></tbody>
     </table>
 </div>
 <br>
@@ -655,14 +655,14 @@ Not Searched. (must search by First Name and Last Name)</td></tr></tbody>
 
 </div>
 
-<div class=3D"tab-pane fade myTabContent active show" id=3D"Case" style=3D"=
-height: 783px;" role=3D"tabpanel">
+<div class=3D"tab-pane fade myTabContent active show" id=3D"Case" role=3D"t=
+abpanel" style=3D"height: 853px;">
 
 <ul class=3D"nav nav-pills sticky-top" id=3D"caseInfoMenuBar" style=3D"back=
 ground-color: #FAFAFA;">
     <li class=3D"nav-item">
-    <span id=3D"menu_CI_Summary" class=3D"nav-link active"><i class=3D"far =
-fa-file-alt"></i> Summary</span>
+    <span id=3D"menu_CI_Summary" class=3D"nav-link"><i class=3D"far fa-file=
+-alt"></i> Summary</span>
     </li>
     <li class=3D"nav-item">
     <span id=3D"menu_CI_Docket" class=3D"nav-link"><i class=3D"fa fa-folder=
@@ -673,8 +673,8 @@ fa-file-alt"></i> Summary</span>
 image"></i> CPC-GD</span>
     </li>
     <li class=3D"nav-item">
-    <span id=3D"menu_CI_Party" class=3D"nav-link"><i class=3D"fa fa-user-fr=
-iends"></i> Party</span>
+    <span id=3D"menu_CI_Party" class=3D"nav-link active"><i class=3D"fa fa-=
+user-friends"></i> Party</span>
     </li>
     <li class=3D"nav-item">
     <span id=3D"menu_CI_Service" class=3D"nav-link"><i class=3D"fas fa-enve=
@@ -700,8 +700,8 @@ a-bs-toggle=3D"modal" data-bs-target=3D"#caseInfo_Modal"><i class=3D"fas fa=
     </li>
     <li class=3D"nav-item">
     <span id=3D"menu_Notification" class=3D"nav-link" title=3D"SIGN UP TO R=
-ECEIVE NOTIFICATIONS" data-bs-toggle=3D"modal" data-bs-target=3D"#caseNotif=
-ication_Modal"><i class=3D"fas fa-sms"></i></span>
+ECEIVE NOTIFICATIONS" style=3D"display:none;" data-bs-toggle=3D"modal" data=
+-bs-target=3D"#caseNotification_Modal"><i class=3D"fas fa-sms"></i></span>
     </li>
     <li class=3D"nav-item">
     <span id=3D"menu_Rss" class=3D"nav-link" title=3D"SUBSCRIBE TO RSS FEED=
@@ -725,18 +725,8 @@ ledby=3D"menu_Maintenance"></ul>
 
 
 
-<div id=3D"caseInfo_Summary" class=3D"">
-    <div id=3D"divSummaryRow1" class=3D"row"><div class=3D"col-md-4"><table=
- class=3D"table"><thead><tr class=3D"table-primary"><th colspan=3D"2">Party=
- Information</th></tr></thead><tbody><tr><td>PLAINTIFF</td><td>MIDLAND CRED=
-IT MANAGEMANT, INC.</td></tr><tr><td>DEFENDANT</td><td>JEFFREY BANG JR</td>=
-</tr></tbody></table></div><div class=3D"col-md-4"><table class=3D"table"><=
-thead><tr class=3D"table-primary"><th colspan=3D"2">Case Information</th></=
-tr></thead><tbody><tr><td>File Date:</td><td>8/8/2023</td></tr><tr><td>Clai=
-m:</td><td></td></tr></tbody></table></div><div class=3D"col-md-4"><table c=
-lass=3D"table"><thead><tr class=3D"table-primary"><th colspan=3D"2">Disposi=
-tion</th></tr></thead><tbody><tr><td colspan=3D"2" class=3D"text-center">No=
- Disposition Information Found.</td></tr></tbody></table></div></div>
+<div id=3D"caseInfo_Summary" class=3D"d-none">
+    <div id=3D"divSummaryRow1" class=3D"row"></div>
 
     <div id=3D"divSummaryRow2" class=3D"row">
         <div class=3D"col-md-6">
@@ -745,8 +735,7 @@ tion</th></tr></thead><tbody><tr><td colspan=3D"2" class=3D"text-center">No=
                     <tr class=3D"table-primary"><th colspan=3D"2">Additiona=
 l Information</th></tr>
                 </thead>
-                <tbody id=3D"tblSummaryAdditionalInfo"><tr><td colspan=3D"2=
-" class=3D"text-center">No Additional Fields Found.</td></tr></tbody>
+                <tbody id=3D"tblSummaryAdditionalInfo"></tbody>
             </table>
         </div>
         <div class=3D"col-md-6">
@@ -756,8 +745,7 @@ l Information</th></tr>
 ents</th></tr>
            =20
                 </thead>
-                <tbody id=3D"tblSummaryCaseComments"><tr><td class=3D"text-=
-center">No Case Comments Found.</td></tr></tbody>
+                <tbody id=3D"tblSummaryCaseComments"></tbody>
             </table>
         </div>
     </div>
@@ -765,7 +753,7 @@ center">No Case Comments Found.</td></tr></tbody>
     <div id=3D"divSummaryRow3" class=3D"row"></div>
     <div id=3D"divSummaryRow4"></div>
    =20
-    <small id=3D"caseInfo_caseid" class=3D"divDebug">39100415</small>
+    <small id=3D"caseInfo_caseid" class=3D"divDebug"></small>
 </div>
 
 <div id=3D"caseInfo_Docket" class=3D"d-none">
@@ -789,12 +777,23 @@ ate</div>
 
 <div id=3D"caseInfo_CPCGD" class=3D"d-none"></div>
 
-<div id=3D"caseInfo_Party" class=3D"d-none">
+<div id=3D"caseInfo_Party" class=3D"">
     <table class=3D"table">
         <thead>
             <tr class=3D"table-primary"><th>Party Information</th></tr>
         </thead>
-        <tbody id=3D"tblPartyBody"></tbody>
+        <tbody id=3D"tblPartyBody"><tr class=3D"table-info"><td><div class=
+=3D"row"><div class=3D"col-md-5"><strong>PALISADES ACQUISITION XVI LLC</str=
+ong><br><small>CREDITOR</small></div></div></td></tr><tr><td><div class=3D"=
+row"><div class=3D"col-md-3"><strong>Address:</strong><br>No Address on Fil=
+e.</div></div></td></tr><tr><td><div class=3D"row"><div class=3D"col-md-3">=
+<strong>Attorney(s):</strong><br>No Attorney on File.</div></div></td></tr>=
+<tr class=3D"table-info"><td><div class=3D"row"><div class=3D"col-md-5"><st=
+rong>NED HUNT</strong><br><small>DEBTOR</small></div></div></td></tr><tr><t=
+d><div class=3D"row"><div class=3D"col-md-3"><strong>Address:</strong><br>N=
+o Address on File.</div></div></td></tr><tr><td><div class=3D"row"><div cla=
+ss=3D"col-md-3"><strong>Attorney(s):</strong><br>No Attorney on File.</div>=
+</div></td></tr></tbody>
     </table>
 </div>
 
@@ -860,21 +859,21 @@ ate</div>
                 <form id=3D"frmCreateCaseBinder" method=3D"post" action=3D"=
 https://pro.mcohio.org/Helpers/createCaseBinder.aspx" target=3D"_blank">
                     <h6 id=3D"caseInfo_modalTitle"><strong>Case #:</strong>=
- </h6>
+ 2023 CJ 222903</h6>
                     <div class=3D"row">
                         <div class=3D"col-6">
                             <label for=3D"caseInfo_modalStartDate">Start Da=
 te:</label>
                             <input name=3D"caseInfo_modalStartDate" type=3D=
 "text" id=3D"caseInfo_modalStartDate" class=3D"form-control" maxlength=3D"1=
-0" placeholder=3D"M/D/YYYY" value=3D"8/8/2023">
+0" placeholder=3D"M/D/YYYY" value=3D"8/7/2023">
                         </div>
                         <div class=3D"col-6">
                             <label for=3D"caseInfo_modalEndDate">End Date:<=
 /label>
                             <input type=3D"text" id=3D"caseInfo_modalEndDat=
 e" name=3D"caseInfo_modalEndDate" class=3D"form-control" maxlength=3D"10" p=
-laceholder=3D"M/D/YYYY" value=3D"8/15/2023">
+laceholder=3D"M/D/YYYY" value=3D"8/16/2023">
                         </div>
                     </div>
                     <div class=3D"row">
@@ -1064,11 +1063,11 @@ i class=3D"fa-solid fa-paper-plane"></i> Send</button>
 
 </div>
 
-<div class=3D"tab-pane fade myTabContent pt-1" id=3D"JudgesCalendar" style=
-=3D"height: 783px;" role=3D"tabpanel"></div>
+<div class=3D"tab-pane fade myTabContent pt-1" id=3D"JudgesCalendar" role=
+=3D"tabpanel" style=3D"height: 853px;"></div>
 
-<div class=3D"tab-pane fade myTabContent pt-1" id=3D"AttorneyDetail" style=
-=3D"height: 783px;" role=3D"tabpanel"></div>
+<div class=3D"tab-pane fade myTabContent pt-1" id=3D"AttorneyDetail" role=
+=3D"tabpanel" style=3D"height: 853px;"></div>
 
 <div class=3D"modal" id=3D"LoginModal">
     <div class=3D"modal-dialog modal-dialog-centered modal-sm">
@@ -1228,342 +1227,17 @@ Loading...</strong>
 dth: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; p=
 osition: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; =
 border-radius: 2px; overflow: hidden;"><div class=3D"grecaptcha-logo"><ifra=
-me title=3D"reCAPTCHA" src=3D"cid:frame-B1CAB013C04D060A53DABDB8F4A38CF2@mh=
-tml.blink" width=3D"256" height=3D"60" role=3D"presentation" name=3D"a-qum6=
-uylqr1vk" frameborder=3D"0" scrolling=3D"no" sandbox=3D"allow-forms allow-p=
+me title=3D"reCAPTCHA" src=3D"cid:frame-5A9569DD5FD6140E66070C0FCCB603C5@mh=
+tml.blink" width=3D"256" height=3D"60" role=3D"presentation" name=3D"a-nvpx=
+5ebssjpg" frameborder=3D"0" scrolling=3D"no" sandbox=3D"allow-forms allow-p=
 opups allow-same-origin allow-scripts allow-top-navigation allow-modals all=
-ow-popups-to-escape-sandbox" style=3D"height: 778px;"></iframe></div><div c=
+ow-popups-to-escape-sandbox" style=3D"height: 848px;"></iframe></div><div c=
 lass=3D"grecaptcha-error"></div><textarea id=3D"g-recaptcha-response-100000=
 " name=3D"g-recaptcha-response" class=3D"g-recaptcha-response" style=3D"wid=
 th: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px=
  25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe=
- style=3D"display: none; height: 778px;"></iframe></div></body></html>
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
-Content-Type: text/css
-Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-71d219cc-0a0b-4b22-8423-cee0cdaac74b@mhtml.blink
-
-@charset "utf-8";
-=0A
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
-Content-Type: text/css
-Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-2dd5060a-3001-403b-ac05-6a41e7cb90ab@mhtml.blink
-
-@charset "utf-8";
-
-:root zeus-ad, :root topadblock, :root span[id^=3D"ezoic-pub-ad-placeholder=
--"], :root guj-ad, :root gpt-ad, :root div[id^=3D"zergnet-widget"], :root d=
-iv[id^=3D"yandex_ad"], :root div[id^=3D"vuukle-ad-"], :root div[id^=3D"stic=
-ky_ad_"], :root div[id^=3D"rc-widget-"], :root div[id^=3D"optidigital-adslo=
-t"], :root div[id^=3D"gpt_ad_"], :root div[id^=3D"ezoic-pub-ad-"], :root di=
-v[id^=3D"div-gpt-"], :root div[id^=3D"dfp-ad-"], :root div[id^=3D"advads_ad=
-_"], :root div[id^=3D"adspot-"], :root div[id^=3D"ads300_250-widget-"], :ro=
-ot div[id^=3D"ads300_100-widget-"], :root div[id^=3D"ads250_250-widget-"], =
-:root div[id^=3D"adrotate_widgets-"], :root div[id^=3D"_vdo_ads_player_ai_"=
-], :root div[id*=3D"ScriptRoot"], :root div[id*=3D"MarketGid"], :root div[d=
-ata-native_ad], :root div[data-mini-ad-unit], :root div[data-insertion], :r=
-oot div[data-id-advertdfpconf], :root div[data-google-query-id], :root hl-a=
-dsense, :root div[data-contentexchange-widget], :root div[data-content=3D"A=
-dvertisement"], :root div[data-alias=3D"300x250 Ad 2"], :root div[data-alia=
-s=3D"300x250 Ad 1"], :root div[data-adzone], :root div[data-adunit-path], :=
-root div[data-ad-wrapper], :root div[data-ad-targeting], :root div[data-ad-=
-placeholder], :root div[class^=3D"native-ad-"], :root div[data-dfp-id], :ro=
-ot div[class^=3D"kiwi-ad-wrapper"], :root div[class^=3D"Adstyled__AdWrapper=
--"], :root div[aria-label=3D"Ads"], :root display-ads, :root display-ad-com=
-ponent, :root bottomadblock, :root atf-ad-slot, :root aside[id^=3D"adrotate=
-_widgets-"], :root article.ad, :root ark-top-ad, :root app-advertisement, :=
-root app-ad, :root amp-fx-flying-carpet, :root amp-embed[type=3D"taboola"],=
- :root amp-connatix-player, :root amp-ad-custom, :root amp-ad, :root a[onmo=
-usedown^=3D"this.href=3D'https://paid.outbrain.com/network/redir?"][target=
-=3D"_blank"] + .ob_source, :root citrus-ad-wrapper, :root a[onmousedown^=3D=
-"this.href=3D'https://paid.outbrain.com/network/redir?"][target=3D"_blank"]=
-, :root a[onmousedown^=3D"this.href=3D'http://paid.outbrain.com/network/red=
-ir?"][target=3D"_blank"] + .ob_source, :root a[href^=3D"https://yogacomplyf=
-uel.com/"], :root a[href^=3D"https://www.sugarinstant.com/?partner_id=3D"],=
- :root a[href^=3D"https://www.purevpn.com/"][href*=3D"&utm_source=3Daff-"],=
- :root a[href^=3D"https://www.privateinternetaccess.com/"] > img, :root a[h=
-ref^=3D"https://www.onlineusershielder.com/"], :root a[href^=3D"https://www=
-.nutaku.net/signup/landing/"], :root a[href^=3D"https://www.nudeidols.com/c=
-ams/"], :root a[href^=3D"https://www.mypornstarcams.com/landing/click/"], :=
-root a[href^=3D"https://www.kingsoffetish.com/tour?partner_id=3D"], :root a=
-[href^=3D"https://www.infowarsstore.com/"] > img, :root a[href^=3D"https://=
-www.highcpmrevenuenetwork.com/"], :root a[href^=3D"https://www.googleadserv=
-ices.com/pagead/aclk?"], :root a[href^=3D"https://www.goldenfrog.com/vyprvp=
-n?offer_id=3D"][href*=3D"&aff_id=3D"], :root a[href^=3D"https://www.get-exp=
-ress-vpn.com/offer/"], :root a[href^=3D"https://www.financeads.net/tc.php?"=
-], :root a[href^=3D"https://www.brazzersnetwork.com/landing/"], :root div[c=
-lass^=3D"Display_displayAd"], :root a[href^=3D"https://www.sheetmusicplus.c=
-om/?aff_id=3D"], :root a[href^=3D"https://www.bang.com/?aff=3D"], :root [da=
-ta-template-type=3D"nativead"], :root a[href^=3D"https://www.adultempire.co=
-m/"][href*=3D"?partner_id=3D"], :root a[href^=3D"https://webroutetrk.com/"]=
-, :root a[href^=3D"https://twinrdsyn.com/"], :root a[href^=3D"https://tsart=
-ech.g2afse.com/"], :root [href^=3D"https://www.mypatriotsupply.com/"] > img=
-, :root a[href^=3D"https://trk.softonixs.xyz/"], :root a[href^=3D"https://t=
-rk.nfl-online-streams.club/"], :root a[href^=3D"https://tracking.avapartner=
-.com/"], :root a[href^=3D"https://track.wg-aff.com"], :root a[href^=3D"http=
-s://track.afcpatrk.com/"], :root a[href^=3D"https://torguard.net/aff.php"] =
-> img, :root div[data-adname], :root a[href^=3D"https://thechleads.pro/"], =
-:root [data-role=3D"tile-ads-module"], :root a[href^=3D"https://adsrv4k.com=
-/"], :root a[href^=3D"https://go.xlviirdr.com"], :root a[href^=3D"https://t=
-haudray.com/"], :root a[href^=3D"https://www.5mno3.com/"], :root a[href^=3D=
-"https://taghaugh.com/"], :root a[href^=3D"https://click.candyoffers.com/"]=
-, :root [href^=3D"https://zstacklife.com/"] img, :root a[href^=3D"https://t=
-.aslnk.link/"], :root a[href^=3D"https://t.adating.link/"], :root a[href^=
-=3D"https://go.trackitalltheway.com/"], :root [href^=3D"https://track.fiver=
-r.com/visit/"] > img, :root a[href^=3D"https://syndication.exoclick.com/"],=
- :root a[href^=3D"https://syndication.dynsrvtbg.com/"], :root a[href^=3D"ht=
-tps://streamate.com/landing/click/"], :root a[href^=3D"https://ad.doublecli=
-ck.net/"], :root a[href^=3D"https://static.fleshlight.com/images/banners/"]=
-, :root a[href^=3D"https://sTaRtGAMing.net/tienda/"], :root [data-adblockke=
-y], :root a[href^=3D"https://sTARtgamIng.net/tienda/"], :root a[href^=3D"ht=
-tps://aweptjmp.com/"], :root a[href^=3D"https://s.zlinkc.com/"], :root a[hr=
-ef^=3D"https://www.mrskin.com/account/"], :root a[href^=3D"https://s.optzsr=
-v.com/"], :root a[data-obtrack^=3D"http://paid.outbrain.com/network/redir?"=
-], :root a[href^=3D"https://reinstandpointdumbest.com/"], :root a[href^=3D"=
-https://go.strpjmp.com/"], :root a[href^=3D"https://refpa4903566.top/"], :r=
-oot a[href^=3D"https://pubads.g.doubleclick.net/"], :root a[href^=3D"https:=
-//prf.hn/click/"][href*=3D"/camref:"] > img, :root a[href^=3D"https://serve=
-.awmdelivery.com/"], :root a[href^=3D"https://prf.hn/click/"][href*=3D"/adr=
-ef:"] > img, :root a[href^=3D"https://pb-track.com/"], :root a[href^=3D"htt=
-ps://paid.outbrain.com/network/redir?"], :root ps-connatix-module, :root di=
-v[id^=3D"ad_position_"], :root a[href^=3D"https://ovb.im/"], :root div[id^=
-=3D"ad-div-"], :root a[href^=3D"https://newbinotracs.com/"], :root a[href^=
-=3D"https://natour.naughtyamerica.com/track/"], :root [href^=3D"https://stv=
-kr.com/"], :root a[href^=3D"https://mediaserver.entainpartners.com/renderBa=
-nner.do?"], :root [href^=3D"https://www.herbanomic.com/"] > img, :root a[hr=
-ef^=3D"https://maymooth-stopic.com/"], :root a[href^=3D"https://loboclick.c=
-om"], :root .nya-slot[style], :root a[href^=3D"https://a.bestcontentweb.top=
-/"], :root a[href^=3D"https://lobimax.com/"], :root a[href^=3D"https://lead=
-1.pl/"], :root a[href^=3D"https://refpa.top/"], :root a[href^=3D"https://la=
-nding.brazzersnetwork.com/"], :root a[href^=3D"https://safesurfingtoday.com=
-/"][href*=3D"?skip=3D"], :root a[href^=3D"https://ads.leovegas.com/redirect=
-.aspx?"], :root a[href^=3D"https://land.brazzersnetwork.com/landing/"], :ro=
-ot a[href^=3D"https://track.adform.net/"], :root [data-css-class=3D"dfp-ina=
-rticle"], :root .card-captioned.crd > .crd--cnt > .s2nPlayer, :root a[href^=
-=3D"https://go.tmrjmp.com"], :root a[href^=3D"https://l.hyenadata.com/"], :=
-root a[href^=3D"https://juicyads.in/"], :root a[href^=3D"https://mediaserve=
-r.gvcaffiliates.com/renderBanner.do?"], :root a[href^=3D"https://join.dream=
-sexworld.com/"], :root a[href^=3D"https://itubego.com/video-downloader/?aff=
-id=3D"], :root a[href^=3D"https://iqbroker.com/"][href*=3D"?aff=3D"], :root=
- a[href^=3D"https://incisivetrk.cvtr.io/click?"], :root [data-revive-zoneid=
-], :root a[href^=3D"https://googleads.g.doubleclick.net/pcs/click"], :root =
-a[href^=3D"https://clk.wrenchsound.store/"], :root a[href^=3D"https://go.zy=
-brdr.com"], :root [href^=3D"http://join.michelle-austin.com/"], :root [clas=
-s^=3D"tile-picker__CitrusBannerContainer-sc-"], :root a[href^=3D"https://go=
-.xxxiijmp.com"], :root a[href^=3D"https://go.xtbaffiliates.com/"], :root a[=
-href^=3D"https://ismlks.com/"], :root a[href^=3D"//a.bestcontentfare.top/"]=
-, :root [href^=3D"https://www.mypillow.com/"] > img, :root a[href^=3D"https=
-://azpresearch.club/"], :root a[href^=3D"https://go.xlirdr.com"], :root a[h=
-ref^=3D"https://go.skinstrip.net"][href*=3D"?campaignId=3D"], :root a[href^=
-=3D"https://go.markets.com/visit/?bta=3D"], :root a[href^=3D"https://billin=
-g.purevpn.com/aff.php"] > img, :root a[href^=3D"https://go.hpyrdr.com/"], :=
-root a[href^=3D"https://go.goaserv.com/"], :root a[href^=3D"https://go.dmzj=
-mp.com"], :root a[href^=3D"https://twinrdsrv.com/"], :root a[href^=3D"https=
-://go.admjmp.com/"], :root [href^=3D"https://kingered-banctours.com/"], :ro=
-ot a[href^=3D"https://get.surfshark.net/aff_c?"][href*=3D"&aff_id=3D"] > im=
-g, :root a-ad, :root a[href^=3D"https://affiliate.rusvpn.com/click.php?"], =
-:root a[href^=3D"https://geniusdexchange.com/"], :root a[href^=3D"https://f=
-rameworkdeserve.com/"], :root a[href^=3D"https://flirtandsweets.life/"], :r=
-oot a[href^=3D"https://www.mrskin.com/tour"], :root a[href^=3D"https://fina=
-nceads.net/tc.php?"], :root div[data-native-ad], :root a[href^=3D"https://e=
-ngine.trackingdesks.com/"], :root [href^=3D"https://totlnkcl.com/"], :root =
-a[href^=3D"https://www.adskeeper.com"], :root a[data-redirect^=3D"https://p=
-aid.outbrain.com/network/redir?"], :root [href^=3D"https://www.reimageplus.=
-com/"], :root a[href^=3D"https://engine.phn.doublepimp.com/"], :root a[href=
-^=3D"https://engine.blueistheneworanges.com/"], :root a[href^=3D"https://dl=
--protect.net/"], :root [href=3D"//jjgirls.com/sex/ChaturbateCams"], :root a=
-[href^=3D"https://datingoffers30.info/"], :root a[href^=3D"https://clixtrac=
-.com/"], :root a[href^=3D"https://click.linksynergy.com/fs-bin/"] > img, :r=
-oot ad-shield-ads, :root a[href^=3D"https://sTartGAMinG.net/tienda/"], :roo=
-t ad-triple-box, :root a[href^=3D"https://click.hoolig.app/"], :root a[href=
-^=3D"https://track.totalav.com/"], :root img[src^=3D"https://images.purevpn=
-affiliates.com"], :root a[href^=3D"https://porntubemate.com/"], :root a[hre=
-f^=3D"http://www.gfrevenge.com/landing/"], :root a[href^=3D"https://clickad=
-illa.com/"], :root a[href^=3D"https://click.dtiserv2.com/"], :root a[href^=
-=3D"https://go.xlvirdr.com"], :root a[href^=3D"http://www.iyalc.com/"], :ro=
-ot a[href^=3D"https://claring-loccelkin.com/"], :root [class^=3D"s2nPlayer"=
-], :root a[href^=3D"https://chaturbate.jjgirls.com/?track=3D"], :root a[hre=
-f^=3D"https://chaturbate.com/in/?track=3D"], :root a[href^=3D"https://chatu=
-rbate.com/in/?tour=3D"], :root a[href^=3D"https://cams.imagetwist.com/in/?t=
-rack=3D"], :root a[href^=3D"https://go.gldrdr.com/"], :root a[href^=3D"http=
-s://buqkrzbrucz.com/"], :root a[href^=3D"https://affcpatrk.com/"], :root a[=
-href^=3D"https://bongacams2.com/track?"], :root a[href^=3D"https://www.shee=
-tmusicplus.com/"][href*=3D"?aff_id=3D"], :root a[href^=3D"https://bngpt.com=
-/"], :root a[href^=3D"https://bluedelivery.pro/"], :root a[href^=3D"https:/=
-/black77854.com/"], :root a[href^=3D"https://bc.game/"], :root a[href^=3D"h=
-ttps://ndt5.net/"], :root a[href^=3D"https://batheunits.com/"], :root a[tar=
-get=3D"_blank"][onmousedown=3D"this.href^=3D'http://paid.outbrain.com/netwo=
-rk/redir?"], :root a[href^=3D"https://banners.livepartners.com/"], :root a[=
-href^=3D"//whulsaux.com/"], :root a[href^=3D"https://m.do.co/c/"] > img, :r=
-oot [href=3D"https://masstortfinancing.com"] img, :root a[href^=3D"https://=
-bongacams10.com/track?"], :root a[href^=3D"https://albionsoftwares.com/"], =
-:root a[href^=3D"https://t.hrtye.com/"], :root a[href^=3D"https://go.etoro.=
-com/"] > img, :root a[href^=3D"https://www.adxsrve.com/"], :root a[href^=3D=
-"https://convertmb.com/"], :root a[href^=3D"https://join.sexworld3d.com/tra=
-ck/"], :root a[href^=3D"https://intenseaffiliates.com/redirect/"], :root a[=
-href^=3D"https://ads.ad4game.com/"], :root [id^=3D"google_ads_iframe"], :ro=
-ot a[href^=3D"https://syndication.optimizesrv.com/"], :root a[href^=3D"http=
-s://affpa.top/"], :root a[href^=3D"https://adnetwrk.com/"], :root a[href^=
-=3D"https://adjoincomprise.com/"], :root [href^=3D"http://misslinkvocation.=
-com/"], :root a[href^=3D"https://adclick.g.doubleclick.net/"], :root a[href=
-^=3D"https://www.bet365.com/"][href*=3D"affiliate=3D"], :root [href^=3D"htt=
-ps://r.kraken.com/"], :root a[href^=3D"https://mmwebhandler.aff-online.com/=
-"], :root a[href^=3D"https://go.nordvpn.net/aff"] > img, :root [href^=3D"ht=
-tp://clicks.totemcash.com/"], :root a[href^=3D"https://misspkl.com/"], :roo=
-t a[href^=3D"https://ad.zanox.com/ppc/"] > img, :root a[href^=3D"https://ad=
-.kubiccomps.icu/"], :root a[href^=3D"https://a2.adform.net/"], :root a[href=
-^=3D"https://iactrivago.ampxdirect.com/"], :root a[href^=3D"https://a.medfo=
-odhome.com/"], :root a[href^=3D"https://adultfriendfinder.com/go/"], :root =
-a[href^=3D"https://a.bestcontentoperation.top/"], :root [data-m-ad-id], :ro=
-ot a[href^=3D"https://a-ads.com/"], :root a[href^=3D"https://join.virtualta=
-boo.com/track/"], :root a[href^=3D"https://StarTGAminG.net/tienda/"], :root=
- a[href^=3D"https://cpmspace.com/"], :root [href^=3D"https://freecourseweb.=
-com/"] > .sitefriend, :root a[href^=3D"https://prf.hn/click/"][href*=3D"/cr=
-eativeref:"] > img, :root a[href^=3D"http://www.adultempire.com/unlimited/p=
-romo?"][href*=3D"&partner_id=3D"], :root a[href^=3D"https://1betandgonow.co=
-m/"], :root [href=3D"https://ourgoldguy.com/contact/"] img, :root a[href^=
-=3D"https://brightadnetwork.com/"], :root [href^=3D"https://www.avantlink.c=
-om/click.php"] img, :root a[href^=3D"http://www.onwebcam.com/random?t_link=
-=3D"], :root a[href^=3D"http://www.mrskin.com/tour"], :root a[href^=3D"http=
-s://agacelebir.com/"], :root a[href^=3D"https://spygasm.com/track?"], :root=
- a[href^=3D"http://d2.zedo.com/"], :root a[href^=3D"http://www.friendlyduck=
-.com/AF_"], :root a[href^=3D"http://trk.globwo.online/"], :root a[href^=3D"=
-http://traffic.tc-clicks.com/"], :root a[href^=3D"http://tour.mrskin.com/"]=
-, :root a[href^=3D"https://funkydaters.com/"], :root [id^=3D"ad_sky"], :roo=
-t a[href^=3D"http://https://www.get-express-vpn.com/offer/"], :root div[id^=
-=3D"google_dfp_"], :root a[href^=3D"http://googleads.g.doubleclick.net/pcs/=
-click"], :root [href^=3D"http://go.cm-trk2.com/"], :root a[href^=3D"http://=
-click.payserve.com/"], :root a[href^=3D"https://porngames.adult/?SID=3D"], =
-:root a[href^=3D"https://landing1.brazzersnetwork.com"], :root #slashboxes =
-> .deals-rail, :root [href^=3D"http://globsads.com/"], :root [href^=3D"http=
-s://www.brighteonstore.com/products/"] img, :root a[href^=3D"http://bc.vc/?=
-r=3D"], :root a[href^=3D"https://mityneedn.com/"], :root [href^=3D"http://h=
-omemoviestube.com/"], :root a[href^=3D"http://ad.doubleclick.net/"], :root =
-a[href^=3D"//zunsoach.com/"], :root a[href^=3D"http://static.fleshlight.com=
-/images/banners/"], :root a[href^=3D"https://a.adtng.com/"], :root a[href^=
-=3D"//pubads.g.doubleclick.net/"], :root a[href^=3D"https://femglobal.app/"=
-], :root a[href^=3D"//go.eabids.com/"], :root a[data-url^=3D"http://paid.ou=
-tbrain.com/network/redir?"] + .author, :root [href^=3D"https://join.playboy=
-plus.com/track/"], :root a[href^=3D"//ardslediana.com/"], :root [data-d-ad-=
-id], :root a[href*=3D".engine.adglare.net/"], :root [href^=3D"https://awbbj=
-mp.com/"], :root a[href^=3D"https://tracker.loropartners.com/"], :root #kt_=
-player > a[target=3D"_blank"], :root a[href*=3D".cfm?fp=3D"][href*=3D"&maxa=
-ds=3D"], :root [data-ad-width], :root a[href^=3D"http://bodelen.com/"], :ro=
-ot a[data-oburl^=3D"https://paid.outbrain.com/network/redir?"], :root [href=
-^=3D"https://cpa.10kfreesilver.com/"], :root a[href^=3D"https://a.bestconte=
-ntfood.top/"], :root a[href^=3D"http://wct.link/"], :root [href^=3D"https:/=
-/goldforyourfuture.com/clk.trk"] img, :root [href^=3D"https://infinitytrk.c=
-om/"], :root [onclick^=3D"location.href=3D'http://www.reimageplus.com"], :r=
-oot [id^=3D"section-ad-banner"], :root a[href^=3D"https://go.julrdr.com/"],=
- :root .trc_rbox_div .syndicatedItemUB, :root [href^=3D"https://zone.gotrac=
-kier.com/"], :root a[href^=3D"https://visit-website.com/"], :root [href^=3D=
-"https://detachedbates.com/"], :root [href^=3D"https://www.targetingpartner=
-.com/"], :root a[href^=3D"https://fourwhenstatistics.com/"], :root [href^=
-=3D"https://www.restoro.com/"], :root a[href^=3D"https://join.virtuallust3d=
-.com/"], :root .section-subheader > .section-hotel-prices-header, :root [hr=
-ef^=3D"https://go.affiliatexe.com/"], :root [href^=3D"https://www.hostg.xyz=
-/"] > img, :root [href^=3D"https://ilovemyfreedoms.com/landing-"], :root a[=
-href^=3D"https://staRTgaming.net/tienda/"], :root a[href^=3D"https://STaRtg=
-AmInG.net/tienda/"], :root a[href^=3D"http://adultfriendfinder.com/go/"], :=
-root a[href^=3D"https://fastestvpn.com/lifetime-special-deal?a_aid=3D"], :r=
-oot a[href^=3D"https://tour.mrskin.com/"], :root div[id^=3D"ad-position-"],=
- :root a[href^=3D"http://affiliate.glbtracker.com/"], :root a[href^=3D"http=
-s://leg.xyz/?track=3D"], :root div[id^=3D"crt-"][style], :root a[href^=3D"h=
-ttp://adultgames.xxx/"], :root [href^=3D"https://shiftnetwork.infusionsoft.=
-com/go/"] > img, :root a[onmousedown^=3D"this.href=3D'http://paid.outbrain.=
-com/network/redir?"][target=3D"_blank"], :root [href^=3D"https://secure.bmt=
-micro.com/servlets/"], :root a[href^=3D"https://losingoldfry.com/"], :root =
-.scroll-fixable.rail-right > .deals-rail, :root [href^=3D"https://routewebt=
-k.com/"], :root a[href^=3D"https://oackoubs.com/"], :root a[href^=3D"https:=
-//ak.psaltauw.net/"], :root a[href^=3D"https://go.cmtaffiliates.com/"], :ro=
-ot [data-name=3D"adaptiveConstructorAd"], :root [href^=3D"https://optimized=
-elite.com/"] > img, :root a[href^=3D"https://awptjmp.com/"], :root a[href^=
-=3D"https://go.goasrv.com/"], :root [href^=3D"http://mypillow.com/"] > img,=
- :root a[href^=3D"http://bongacams.com/track?"], :root a[href^=3D"https://f=
-leshlight.sjv.io/"], :root [data-ad-manager-id], :root a[href^=3D"https://p=
-romo-bc.com/"], :root a[href^=3D"https://clicks.pipaffiliates.com/"], :root=
- [href^=3D"https://noqreport.com/"] > img, :root a[href^=3D"https://www.hig=
-hperformancecpmgate.com/"], :root a[href^=3D"https://t.grtyi.com/"], :root =
-[href^=3D"https://mylead.global/stl/"] > img, :root [href^=3D"https://mypat=
-riotsupply.com/"] > img, :root [data-freestar-ad], :root a[href^=3D"https:/=
-/fc.lc/ref/"], :root .vid-present > .van_vid_carousel__padding, :root span[=
-data-ez-ph-id], :root [href^=3D"https://track.aftrk1.com/"], :root div[id^=
-=3D"adngin-"], :root [data-rc-widget], :root a[href^=3D"https://go.xxxijmp.=
-com"], :root [href^=3D"https://istlnkcl.com/"], :root [href^=3D"https://go.=
-xlrdr.com"], :root [href^=3D"https://go.4rabettraff.com/"], :root a[href^=
-=3D"https://tm-offers.gamingadult.com/"], :root [href^=3D"https://charmingd=
-atings.life/"], :root [href^=3D"https://glersakr.com/"], :root ins.adsbygoo=
-gle, :root a[href^=3D"https://1startfiledownload1.com/"], :root .trc_rbox_b=
-order_elm .syndicatedItem, :root a[href^=3D"http://www.onclickmega.com/jump=
-/next.php?"], :root a[href^=3D"https://italarizege.xyz/"], :root a[href^=3D=
-"https://wittered-mainging.com/"], :root [href^=3D"https://engine.gettopple=
-.com/"], :root [data-id^=3D"div-gpt-ad"], :root a[href^=3D"https://k2s.cc/p=
-r/"], :root [href^=3D"https://affect3dnetwork.com/track/"], :root a[href^=
-=3D"https://camfapr.com/landing/click/"], :root [href=3D"//sexcams.plus/"],=
- :root a[href^=3D"https://go.currency.com/"], :root [href^=3D"http://www.my=
-pillow.com/"] > img, :root div[id^=3D"div-ads-"], :root [href^=3D"https://r=
-apidgator.net/article/premium/ref/"], :root [href^=3D"https://join3.banneds=
-extapes.com"], :root div[data-spotim-slot], :root [href^=3D"https://antiagi=
-ngbed.com/discount/"] > img, :root a[href^=3D"https://go.247traffic.com/"],=
- :root [href^=3D"https://join.girlsoutwest.com/"], :root [href^=3D"http://t=
-rafficare.net/"], :root a[href^=3D"https://tc.tradetracker.net/"] > img, :r=
-oot a[href^=3D"https://adserver.adreactor.com/"], :root [href^=3D"http://jo=
-in.shemalesfromhell.com/"], :root [id^=3D"ad_slider"], :root #searchResults=
-List > div > div[onclick$=3D"'inline.ad'});"], :root [data-adbridg-ad-class=
-], :root a[href^=3D"http://www.adultdvdempire.com/?partner_id=3D"][href*=3D=
-"&utm_"], :root [href^=3D"http://join.shemale.xxx/"], :root a[href^=3D"http=
-s://ads.betfair.com/redirect.aspx?"], :root [href^=3D"http://www.fleshlight=
-girls.com/"], :root [href^=3D"http://join.trannies-fuck.com/"], :root .trc_=
-rbox .syndicatedItem, :root a[href^=3D"http://cam4com.go2cloud.org/aff_c?"]=
-, :root a[href^=3D"https://thefacux.com/"], :root a[href^=3D"https://ads.pl=
-anetwin365affiliate.com/redirect.aspx?"], :root [href^=3D"http://join.rodne=
-ymoore.com/"], :root [href^=3D"https://shrugartisticelder.com"], :root a[hr=
-ef^=3D"https://staRTgamIng.net/tienda/"], :root div[id^=3D"lazyad-"], :root=
- a[href^=3D"http://com-1.pro/"], :root [name^=3D"google_ads_iframe"], :root=
- [href=3D"https://www.masstortfinancing.com/"] > img, :root .ob_container .=
-item-container-obpd, :root [id^=3D"div-gpt-ad"], :root [href^=3D"https://my=
-pillow.com/"] > img, :root [href^=3D"https://ad.admitad.com/"], :root [data=
--testid=3D"ad_testID"], :root a[href^=3D"https://u.expresstech.io/"], :root=
- a[href^=3D"https://www.geekbuying.com/dynamic-ads/"], :root a[href^=3D"htt=
-ps://lnkxt.bannerator.com/"], :root [href=3D"https://jdrucker.com/gold"] > =
-img, :root [href^=3D"https://v.investologic.co.uk/"], :root [href^=3D"https=
-://mystore.com/"] > img, :root ads-right, :root [href^=3D"https://cipledecl=
-ine.buzz/"], :root a[href^=3D"https://go.xxxjmp.com"], :root #leader-compan=
-ion > a[href], :root [data-desktop-ad-id], :root [href^=3D"https://wct.link=
-/"], :root div[recirculation-ad-container], :root [href^=3D"https://traffse=
-rve.com/"], :root a[href^=3D"https://track.ultravpn.com/"], :root [href^=3D=
-"https://goldcometals.com/clk.trk"], :root a[href^=3D"https://go.hpyjmp.com=
-"], :root [data-mobile-ad-id], :root a[href^=3D"http://tc.tradetracker.net/=
-"] > img, :root a[href^=3D"http://affiliates.thrixxx.com/"], :root [data-ad=
--name], :root [data-ez-name], :root a[data-widget-outbrain-redirect^=3D"htt=
-p://paid.outbrain.com/network/redir?"], :root [data-dynamic-ads], :root a[h=
-ref^=3D"http://go.xtbaffiliates.com/"], :root a[href^=3D"https://consali.co=
-m/"], :root .grid > .container > #aside-promotion, :root dfp-ad, :root .trc=
-_related_container div[data-item-syndicated=3D"true"], :root a[href^=3D"htt=
-ps://www.liquidfire.mobi/"], :root [href^=3D"https://click2cvs.com/"], :roo=
-t a[href^=3D"https://startgAming.net/tienda/"], :root [href^=3D"https://saf=
-er-redirection.com"], :root [onclick*=3D"content.ad/"], :root amp-ad, :root=
- [data-ad-cls], :root [id^=3D"ad-wrap-"], :root div[id^=3D"taboola-stream-"=
-], :root [href^=3D"https://go.astutelinks.com/"], :root [class^=3D"amp-ad-"=
-], :root [href^=3D"https://affiliate.fastcomet.com/"] > img, :root [class^=
-=3D"adDisplay-module"], :root ad-slot, :root a[href^=3D"https://go.xlviiird=
-r.com"], :root [href^=3D"http://join.shemalepornstar.com/"], :root a[href^=
-=3D"http://partners.etoro.com/"], :root [data-advadstrackid], :root [href^=
-=3D"https://trackfin.asia/"], :root .plistaList > .plista_widget_underArtic=
-le_item[data-type=3D"pet"], :root .ob_dual_right > .ob_ads_header ~ .odb_di=
-v, :root .trc_rbox_div .syndicatedItem, :root div[data-adunit], :root app-l=
-arge-ad, :root [href^=3D"https://turtlebids.irauctions.com/"] img, :root [d=
-ata-ad-module], :root .plistaList > .itemLinkPET, :root [href^=3D"https://g=
-mxvmvptfm.com/"], :root a[href^=3D"https://bs.serving-sys.com"], :root [hre=
-f^=3D"http://residenceseeingstanding.com/"], :root a[href*=3D"//lkstrck2.co=
-m/"], :root a[href^=3D"https://traffdaq.com/"], :root [class^=3D"div-gpt-ad=
-"], :root a[href^=3D"https://refpazkjixes.top/"], :root #mgb-container > #m=
-gb, :root [href^=3D"https://www.cloudways.com/en/?id"], :root a[href^=3D"ht=
-tps://trk.sportsflix4k.club/"], :root a[href^=3D"https://go.xlivrdr.com"], =
-:root a[href^=3D"https://cam4com.go2cloud.org/"], :root a[href^=3D"http://l=
-i.blogtrottr.com/click?"] { display: none !important; }
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+ style=3D"display: none; height: 848px;"></iframe></div></body></html>
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://pro.mcohio.org/Content/bootstrap.min.css
@@ -3791,7 +3465,7 @@ dius); }
 .card-group > .card { margin-bottom: var(--bs-card-group-margin); }
 
 @media (min-width: 576px) {
-  .card-group { display: flex; flex-flow: row wrap; }
+  .card-group { display: flex; flex-flow: wrap; }
   .card-group > .card { flex: 1 0 0%; margin-bottom: 0px; }
   .card-group > .card + .card { margin-left: 0px; border-left: 0px; }
   .card-group > .card:not(:last-child) { border-top-right-radius: 0px; bord=
@@ -4107,8 +3781,8 @@ ckground-size: var(--bs-progress-height) var(--bs-progress-height); }
 ng progress-bar-stripes; }
 
 @media (prefers-reduced-motion: reduce) {
-  .progress-bar-animated { animation: 0s ease 0s 1 normal none running none=
-; }
+  .progress-bar-animated { animation: auto ease 0s 1 normal none running no=
+ne; }
 }
 
 .list-group { --bs-list-group-color: var(--bs-body-color); --bs-list-group-=
@@ -7495,7 +7169,7 @@ tant; }
   .d-print-inline-flex { display: inline-flex !important; }
   .d-print-none { display: none !important; }
 }
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://pro.mcohio.org/Content/site.css
@@ -7554,7 +7228,7 @@ tant; }
   #trSearchFilters { display: none !important; }
   .divDebug { display: none !important; }
 }
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://pro.mcohio.org/Content/fontawesome/css/all.css
@@ -12787,7 +12461,7 @@ mpatibility.ttf") format("truetype"); unicode-range: U+F041, U+F047, U+F065=
  U+F0B2, U+F0D0, U+F0D6, U+F0E4, U+F0EC, U+F10A-F10B, U+F123, U+F13E, U+F14=
 8-F149, U+F14C, U+F156, U+F15E, U+F160-F161, U+F163, U+F175-F178, U+F195, U=
 +F1F8, U+F219, U+F27A; }
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://pro.mcohio.org/Images/clerk_emblem.png
@@ -13180,7 +12854,7 @@ TTozLGo6Mzc0NDg3OTQ3Mix0OjIzMDIxNTE4x95ZngAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0w
 Mi0yMlQyMToyNTo1MSswMDowMH7mEpoAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMjJUMjE6
 MjU6NTErMDA6MDAPu6omAAAAAElFTkSuQmCC
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: image/x-icon
 Content-Transfer-Encoding: base64
 Content-Location: https://pro.mcohio.org/images/clerk_logo.ico
@@ -13207,7 +12881,7 @@ VRYtAE8WPAAKCJMEVxk4RWoaJKF6KCndhDQy8IArKux6JSjJciIye2IfTCGUIQAAWCN5AGUlbAAA
 AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAEAAA==
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: image/x-icon
 Content-Transfer-Encoding: base64
 Content-Location: https://pro.mcohio.org/images/efiling.ico
@@ -13219,7 +12893,7 @@ AAAAAAAAAAAAgAAAAACAAACAgAAAAACAAIAAgAAAgIAAwMDAAICAgAD/AAAAAP8AAP//AAAAAP8A
 n/////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: image/jpeg
 Content-Transfer-Encoding: base64
 Content-Location: https://pro.mcohio.org/Images/foley_headshot_small.jpg
@@ -13570,7 +13244,7 @@ ok8h5Gc6IA2BiSe1IEgxyvHVqIsEYjbSkKoUEEDRBCg6Gwu9bPz6B+EYZ6+INyeRxezbieclvujp
 ID9KPtILMzhjL+D9wVdeT6GbNyjR7EntNDEWkSCKBzFoRFVkeQgEyO7MASPsTt7F2Qx9FTcSYEj+
 oWA3A/zmO2DQJMG3cEEyIB3F42m037Y//9k=
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://pro.mcohio.org/Images/clerk_logo_new.png
@@ -14202,7 +13876,7 @@ SpU4W0XLHiuksywbRnx/nGlOrqIoiqIsjgrdSNTLuxD/a4zZNMb82/nx7v/U+DoURakvAyZU+LbQ
 0wqvqMmELztu+y0useKzoiiKoqwVmqO7AMTLe6A5uoqiKNUF4ct+Qar2Kry5PjgHP4zafm/0tB+z
 oiiKopSIMeb/AJVxKpm1Tf/2AAAAAElFTkSuQmCC
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://pro.mcohio.org/Images/the_help_center_logo.png
@@ -14526,17 +14200,16 @@ vIoEmxBCCK/y/2k/zr+o5VO0AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTAzLTE5VDAzOjI3OjU4
 KzAwOjAwnkrPcwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wMy0xOVQwMzoyNzo1OCswMDowMO8X
 d88AAAAASUVORK5CYII=
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/html
-Content-ID: <frame-B1CAB013C04D060A53DABDB8F4A38CF2@mhtml.blink>
+Content-ID: <frame-5A9569DD5FD6140E66070C0FCCB603C5@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcIVYQcAAAAAB3UDYAT2rh-EelDlT7i48-tTvhv&co=aHR0cHM6Ly9wcm8ubWNvaGlvLm9yZzo0NDM.&hl=en&v=3kTz7WGoZLQTivI-amNftGZO&size=invisible&cb=7lygrl8hkdhl
+Content-Location: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcIVYQcAAAAAB3UDYAT2rh-EelDlT7i48-tTvhv&co=aHR0cHM6Ly9wcm8ubWNvaGlvLm9yZzo0NDM.&hl=en&v=3kTz7WGoZLQTivI-amNftGZO&size=invisible&cb=mi615lsgiaw9
 
 <!DOCTYPE html><html dir=3D"ltr" lang=3D"en"><head><meta http-equiv=3D"Cont=
 ent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" t=
-ype=3D"text/css" href=3D"cid:css-163c1256-7f73-48c1-975d-578e81782022@mhtml=
-.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6f72b2=
-04-ea95-42ff-a7f3-0ff65028da0a@mhtml.blink" />
+ype=3D"text/css" href=3D"cid:css-2e34721a-c642-4e06-a311-41bd8f92a9e2@mhtml=
+.blink" />
 <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
 <title>reCAPTCHA</title>
 
@@ -14563,10 +14236,10 @@ ivacy/" target=3D"_blank" style=3D"">Privacy</a><span aria-hidden=3D"true" =
 role=3D"presentation"> - </span><a href=3D"https://www.google.com/intl/en/p=
 olicies/terms/" target=3D"_blank" style=3D"">Terms</a></div></div></div><if=
 rame style=3D"display: none;"></iframe></body></html>
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-163c1256-7f73-48c1-975d-578e81782022@mhtml.blink
+Content-Location: cid:css-2e34721a-c642-4e06-a311-41bd8f92a9e2@mhtml.blink
 
 @charset "utf-8";
 
@@ -14677,338 +14350,7 @@ F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A7=
 rmat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U=
 +2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+21=
 91, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
-Content-Type: text/css
-Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-6f72b204-ea95-42ff-a7f3-0ff65028da0a@mhtml.blink
-
-@charset "utf-8";
-
-:root html[itemtype=3D"http://schema.org/SearchResultsPage"] #cnt div[class=
-$=3D"sh-sr__tau"][style], :root div[data-is-ad=3D"1"], :root div[data-crl=
-=3D"true"][data-id^=3D"CarouselPLA-"], :root div[jsdata*=3D"CarouselPLA-"][=
-data-id^=3D"CarouselPLA-"], :root div[data-attrid=3D"kc:/local:promotions"]=
-, :root body#yDmH0d [data-is-promoted=3D"true"], :root #tadsb[aria-label], =
-:root .GC3LC41DERB + div[style=3D"position: relative; height: 170px;"], :ro=
-ot a[href^=3D"https://www.googleadservices.com/pagead/aclk?"], :root html[i=
-temtype=3D"http://schema.org/SearchResultsPage"] #cnt div[class$=3D"sh-sr__=
-bau"], :root div[jsdata*=3D"SinglePLA-"][data-id^=3D"SinglePLA-"], :root .c=
-ommercial-unit-mobile-top > div[data-pla=3D"1"], :root a[href^=3D"/aclk?sa=
-=3D"][href*=3D"&adurl=3D&placesheetAdFix=3D1"] + button, :root a[href^=3D"/=
-aclk?sa=3D"][href*=3D"&adurl=3D&placesheetAdFix=3D1"], :root #tads[aria-lab=
-el], :root #atvcap > .cu-container div[data-pla=3D"1"], :root zeus-ad, :roo=
-t topadblock, :root span[id^=3D"ezoic-pub-ad-placeholder-"], :root guj-ad, =
-:root gpt-ad, :root div[id^=3D"zergnet-widget"], :root div[id^=3D"yandex_ad=
-"], :root div[id^=3D"vuukle-ad-"], :root div[id^=3D"sticky_ad_"], :root div=
-[id^=3D"rc-widget-"], :root div[id^=3D"optidigital-adslot"], :root div[id^=
-=3D"gpt_ad_"], :root div[id^=3D"ezoic-pub-ad-"], :root div[id^=3D"div-gpt-"=
-], :root div[id^=3D"dfp-ad-"], :root div[id^=3D"advads_ad_"], :root div[id^=
-=3D"adspot-"], :root div[id^=3D"ads300_250-widget-"], :root div[id^=3D"ads3=
-00_100-widget-"], :root div[id^=3D"ads250_250-widget-"], :root div[id^=3D"a=
-drotate_widgets-"], :root div[id^=3D"_vdo_ads_player_ai_"], :root div[id*=
-=3D"ScriptRoot"], :root div[id*=3D"MarketGid"], :root div[data-native_ad], =
-:root div[data-mini-ad-unit], :root div[data-insertion], :root div[data-id-=
-advertdfpconf], :root div[data-google-query-id], :root hl-adsense, :root di=
-v[data-contentexchange-widget], :root div[data-content=3D"Advertisement"], =
-:root div[data-alias=3D"300x250 Ad 2"], :root div[data-alias=3D"300x250 Ad =
-1"], :root div[data-adzone], :root div[data-adunit-path], :root div[data-ad=
--wrapper], :root div[data-ad-targeting], :root div[data-ad-placeholder], :r=
-oot div[class^=3D"native-ad-"], :root div[data-dfp-id], :root div[class^=3D=
-"kiwi-ad-wrapper"], :root div[class^=3D"Adstyled__AdWrapper-"], :root div[a=
-ria-label=3D"Ads"], :root display-ads, :root display-ad-component, :root bo=
-ttomadblock, :root atf-ad-slot, :root aside[id^=3D"adrotate_widgets-"], :ro=
-ot article.ad, :root ark-top-ad, :root app-advertisement, :root app-ad, :ro=
-ot amp-fx-flying-carpet, :root amp-embed[type=3D"taboola"], :root amp-conna=
-tix-player, :root amp-ad-custom, :root amp-ad, :root a[onmousedown^=3D"this=
-.href=3D'https://paid.outbrain.com/network/redir?"][target=3D"_blank"] + .o=
-b_source, :root citrus-ad-wrapper, :root a[onmousedown^=3D"this.href=3D'htt=
-ps://paid.outbrain.com/network/redir?"][target=3D"_blank"], :root a[onmouse=
-down^=3D"this.href=3D'http://paid.outbrain.com/network/redir?"][target=3D"_=
-blank"] + .ob_source, :root a[href^=3D"https://yogacomplyfuel.com/"], :root=
- a[href^=3D"https://www.sugarinstant.com/?partner_id=3D"], :root a[href^=3D=
-"https://www.purevpn.com/"][href*=3D"&utm_source=3Daff-"], :root a[href^=3D=
-"https://www.privateinternetaccess.com/"] > img, :root a[href^=3D"https://w=
-ww.onlineusershielder.com/"], :root a[href^=3D"https://www.nutaku.net/signu=
-p/landing/"], :root a[href^=3D"https://www.nudeidols.com/cams/"], :root a[h=
-ref^=3D"https://www.mypornstarcams.com/landing/click/"], :root a[href^=3D"h=
-ttps://www.kingsoffetish.com/tour?partner_id=3D"], :root a[href^=3D"https:/=
-/www.infowarsstore.com/"] > img, :root a[href^=3D"https://www.highcpmrevenu=
-enetwork.com/"], :root a[href^=3D"https://www.googleadservices.com/pagead/a=
-clk?"], :root a[href^=3D"https://www.goldenfrog.com/vyprvpn?offer_id=3D"][h=
-ref*=3D"&aff_id=3D"], :root a[href^=3D"https://www.get-express-vpn.com/offe=
-r/"], :root a[href^=3D"https://www.financeads.net/tc.php?"], :root a[href^=
-=3D"https://www.brazzersnetwork.com/landing/"], :root div[class^=3D"Display=
-_displayAd"], :root a[href^=3D"https://www.sheetmusicplus.com/?aff_id=3D"],=
- :root a[href^=3D"https://www.bang.com/?aff=3D"], :root [data-template-type=
-=3D"nativead"], :root a[href^=3D"https://www.adultempire.com/"][href*=3D"?p=
-artner_id=3D"], :root a[href^=3D"https://webroutetrk.com/"], :root a[href^=
-=3D"https://twinrdsyn.com/"], :root a[href^=3D"https://tsartech.g2afse.com/=
-"], :root [href^=3D"https://www.mypatriotsupply.com/"] > img, :root a[href^=
-=3D"https://trk.softonixs.xyz/"], :root a[href^=3D"https://trk.nfl-online-s=
-treams.club/"], :root a[href^=3D"https://tracking.avapartner.com/"], :root =
-a[href^=3D"https://track.wg-aff.com"], :root a[href^=3D"https://track.afcpa=
-trk.com/"], :root a[href^=3D"https://torguard.net/aff.php"] > img, :root di=
-v[data-adname], :root a[href^=3D"https://thechleads.pro/"], :root [data-rol=
-e=3D"tile-ads-module"], :root a[href^=3D"https://adsrv4k.com/"], :root a[hr=
-ef^=3D"https://go.xlviirdr.com"], :root a[href^=3D"https://thaudray.com/"],=
- :root a[href^=3D"https://www.5mno3.com/"], :root a[href^=3D"https://taghau=
-gh.com/"], :root a[href^=3D"https://click.candyoffers.com/"], :root [href^=
-=3D"https://zstacklife.com/"] img, :root a[href^=3D"https://t.aslnk.link/"]=
-, :root a[href^=3D"https://t.adating.link/"], :root a[href^=3D"https://go.t=
-rackitalltheway.com/"], :root [href^=3D"https://track.fiverr.com/visit/"] >=
- img, :root a[href^=3D"https://syndication.exoclick.com/"], :root a[href^=
-=3D"https://syndication.dynsrvtbg.com/"], :root a[href^=3D"https://streamat=
-e.com/landing/click/"], :root a[href^=3D"https://ad.doubleclick.net/"], :ro=
-ot a[href^=3D"https://static.fleshlight.com/images/banners/"], :root a[href=
-^=3D"https://sTaRtGAMing.net/tienda/"], :root [data-adblockkey], :root a[hr=
-ef^=3D"https://sTARtgamIng.net/tienda/"], :root a[href^=3D"https://aweptjmp=
-.com/"], :root a[href^=3D"https://s.zlinkc.com/"], :root a[href^=3D"https:/=
-/www.mrskin.com/account/"], :root a[href^=3D"https://s.optzsrv.com/"], :roo=
-t a[data-obtrack^=3D"http://paid.outbrain.com/network/redir?"], :root a[hre=
-f^=3D"https://reinstandpointdumbest.com/"], :root a[href^=3D"https://go.str=
-pjmp.com/"], :root a[href^=3D"https://refpa4903566.top/"], :root a[href^=3D=
-"https://pubads.g.doubleclick.net/"], :root a[href^=3D"https://prf.hn/click=
-/"][href*=3D"/camref:"] > img, :root a[href^=3D"https://serve.awmdelivery.c=
-om/"], :root a[href^=3D"https://prf.hn/click/"][href*=3D"/adref:"] > img, :=
-root a[href^=3D"https://pb-track.com/"], :root a[href^=3D"https://paid.outb=
-rain.com/network/redir?"], :root ps-connatix-module, :root div[id^=3D"ad_po=
-sition_"], :root a[href^=3D"https://ovb.im/"], :root div[id^=3D"ad-div-"], =
-:root a[href^=3D"https://newbinotracs.com/"], :root a[href^=3D"https://nato=
-ur.naughtyamerica.com/track/"], :root [href^=3D"https://stvkr.com/"], :root=
- a[href^=3D"https://mediaserver.entainpartners.com/renderBanner.do?"], :roo=
-t [href^=3D"https://www.herbanomic.com/"] > img, :root a[href^=3D"https://m=
-aymooth-stopic.com/"], :root a[href^=3D"https://loboclick.com"], :root .nya=
--slot[style], :root a[href^=3D"https://a.bestcontentweb.top/"], :root a[hre=
-f^=3D"https://lobimax.com/"], :root a[href^=3D"https://lead1.pl/"], :root a=
-[href^=3D"https://refpa.top/"], :root a[href^=3D"https://landing.brazzersne=
-twork.com/"], :root a[href^=3D"https://safesurfingtoday.com/"][href*=3D"?sk=
-ip=3D"], :root a[href^=3D"https://ads.leovegas.com/redirect.aspx?"], :root =
-a[href^=3D"https://land.brazzersnetwork.com/landing/"], :root a[href^=3D"ht=
-tps://track.adform.net/"], :root [data-css-class=3D"dfp-inarticle"], :root =
-.card-captioned.crd > .crd--cnt > .s2nPlayer, :root a[href^=3D"https://go.t=
-mrjmp.com"], :root a[href^=3D"https://l.hyenadata.com/"], :root a[href^=3D"=
-https://juicyads.in/"], :root a[href^=3D"https://mediaserver.gvcaffiliates.=
-com/renderBanner.do?"], :root a[href^=3D"https://join.dreamsexworld.com/"],=
- :root a[href^=3D"https://itubego.com/video-downloader/?affid=3D"], :root a=
-[href^=3D"https://iqbroker.com/"][href*=3D"?aff=3D"], :root a[href^=3D"http=
-s://incisivetrk.cvtr.io/click?"], :root [data-revive-zoneid], :root a[href^=
-=3D"https://googleads.g.doubleclick.net/pcs/click"], :root a[href^=3D"https=
-://clk.wrenchsound.store/"], :root a[href^=3D"https://go.zybrdr.com"], :roo=
-t [href^=3D"http://join.michelle-austin.com/"], :root [class^=3D"tile-picke=
-r__CitrusBannerContainer-sc-"], :root a[href^=3D"https://go.xxxiijmp.com"],=
- :root a[href^=3D"https://go.xtbaffiliates.com/"], :root a[href^=3D"https:/=
-/ismlks.com/"], :root a[href^=3D"//a.bestcontentfare.top/"], :root [href^=
-=3D"https://www.mypillow.com/"] > img, :root a[href^=3D"https://azpresearch=
-.club/"], :root a[href^=3D"https://go.xlirdr.com"], :root a[href^=3D"https:=
-//go.skinstrip.net"][href*=3D"?campaignId=3D"], :root a[href^=3D"https://go=
-.markets.com/visit/?bta=3D"], :root a[href^=3D"https://billing.purevpn.com/=
-aff.php"] > img, :root a[href^=3D"https://go.hpyrdr.com/"], :root a[href^=
-=3D"https://go.goaserv.com/"], :root a[href^=3D"https://go.dmzjmp.com"], :r=
-oot a[href^=3D"https://twinrdsrv.com/"], :root a[href^=3D"https://go.admjmp=
-.com/"], :root [href^=3D"https://kingered-banctours.com/"], :root a[href^=
-=3D"https://get.surfshark.net/aff_c?"][href*=3D"&aff_id=3D"] > img, :root a=
--ad, :root a[href^=3D"https://affiliate.rusvpn.com/click.php?"], :root a[hr=
-ef^=3D"https://geniusdexchange.com/"], :root a[href^=3D"https://frameworkde=
-serve.com/"], :root a[href^=3D"https://flirtandsweets.life/"], :root a[href=
-^=3D"https://www.mrskin.com/tour"], :root a[href^=3D"https://financeads.net=
-/tc.php?"], :root div[data-native-ad], :root a[href^=3D"https://engine.trac=
-kingdesks.com/"], :root [href^=3D"https://totlnkcl.com/"], :root a[href^=3D=
-"https://www.adskeeper.com"], :root a[data-redirect^=3D"https://paid.outbra=
-in.com/network/redir?"], :root [href^=3D"https://www.reimageplus.com/"], :r=
-oot a[href^=3D"https://engine.phn.doublepimp.com/"], :root a[href^=3D"https=
-://engine.blueistheneworanges.com/"], :root a[href^=3D"https://dl-protect.n=
-et/"], :root [href=3D"//jjgirls.com/sex/ChaturbateCams"], :root a[href^=3D"=
-https://datingoffers30.info/"], :root a[href^=3D"https://clixtrac.com/"], :=
-root a[href^=3D"https://click.linksynergy.com/fs-bin/"] > img, :root ad-shi=
-eld-ads, :root a[href^=3D"https://sTartGAMinG.net/tienda/"], :root ad-tripl=
-e-box, :root a[href^=3D"https://click.hoolig.app/"], :root a[href^=3D"https=
-://track.totalav.com/"], :root img[src^=3D"https://images.purevpnaffiliates=
-.com"], :root a[href^=3D"https://porntubemate.com/"], :root a[href^=3D"http=
-://www.gfrevenge.com/landing/"], :root a[href^=3D"https://clickadilla.com/"=
-], :root a[href^=3D"https://click.dtiserv2.com/"], :root a[href^=3D"https:/=
-/go.xlvirdr.com"], :root a[href^=3D"http://www.iyalc.com/"], :root a[href^=
-=3D"https://claring-loccelkin.com/"], :root [class^=3D"s2nPlayer"], :root a=
-[href^=3D"https://chaturbate.jjgirls.com/?track=3D"], :root a[href^=3D"http=
-s://chaturbate.com/in/?track=3D"], :root a[href^=3D"https://chaturbate.com/=
-in/?tour=3D"], :root a[href^=3D"https://cams.imagetwist.com/in/?track=3D"],=
- :root a[href^=3D"https://go.gldrdr.com/"], :root a[href^=3D"https://buqkrz=
-brucz.com/"], :root a[href^=3D"https://affcpatrk.com/"], :root a[href^=3D"h=
-ttps://bongacams2.com/track?"], :root a[href^=3D"https://www.sheetmusicplus=
-.com/"][href*=3D"?aff_id=3D"], :root a[href^=3D"https://bngpt.com/"], :root=
- a[href^=3D"https://bluedelivery.pro/"], :root a[href^=3D"https://black7785=
-4.com/"], :root a[href^=3D"https://bc.game/"], :root a[href^=3D"https://ndt=
-5.net/"], :root a[href^=3D"https://batheunits.com/"], :root a[target=3D"_bl=
-ank"][onmousedown=3D"this.href^=3D'http://paid.outbrain.com/network/redir?"=
-], :root a[href^=3D"https://banners.livepartners.com/"], :root a[href^=3D"/=
-/whulsaux.com/"], :root a[href^=3D"https://m.do.co/c/"] > img, :root [href=
-=3D"https://masstortfinancing.com"] img, :root a[href^=3D"https://bongacams=
-10.com/track?"], :root a[href^=3D"https://albionsoftwares.com/"], :root a[h=
-ref^=3D"https://t.hrtye.com/"], :root a[href^=3D"https://go.etoro.com/"] > =
-img, :root a[href^=3D"https://www.adxsrve.com/"], :root a[href^=3D"https://=
-convertmb.com/"], :root a[href^=3D"https://join.sexworld3d.com/track/"], :r=
-oot a[href^=3D"https://intenseaffiliates.com/redirect/"], :root a[href^=3D"=
-https://ads.ad4game.com/"], :root [id^=3D"google_ads_iframe"], :root a[href=
-^=3D"https://syndication.optimizesrv.com/"], :root a[href^=3D"https://affpa=
-.top/"], :root a[href^=3D"https://adnetwrk.com/"], :root a[href^=3D"https:/=
-/adjoincomprise.com/"], :root [href^=3D"http://misslinkvocation.com/"], :ro=
-ot a[href^=3D"https://adclick.g.doubleclick.net/"], :root a[href^=3D"https:=
-//www.bet365.com/"][href*=3D"affiliate=3D"], :root [href^=3D"https://r.krak=
-en.com/"], :root a[href^=3D"https://mmwebhandler.aff-online.com/"], :root a=
-[href^=3D"https://go.nordvpn.net/aff"] > img, :root [href^=3D"http://clicks=
-.totemcash.com/"], :root a[href^=3D"https://misspkl.com/"], :root a[href^=
-=3D"https://ad.zanox.com/ppc/"] > img, :root a[href^=3D"https://ad.kubiccom=
-ps.icu/"], :root a[href^=3D"https://a2.adform.net/"], :root a[href^=3D"http=
-s://iactrivago.ampxdirect.com/"], :root a[href^=3D"https://a.medfoodhome.co=
-m/"], :root a[href^=3D"https://adultfriendfinder.com/go/"], :root a[href^=
-=3D"https://a.bestcontentoperation.top/"], :root [data-m-ad-id], :root a[hr=
-ef^=3D"https://a-ads.com/"], :root a[href^=3D"https://join.virtualtaboo.com=
-/track/"], :root a[href^=3D"https://StarTGAminG.net/tienda/"], :root a[href=
-^=3D"https://cpmspace.com/"], :root [href^=3D"https://freecourseweb.com/"] =
-> .sitefriend, :root a[href^=3D"https://prf.hn/click/"][href*=3D"/creativer=
-ef:"] > img, :root a[href^=3D"http://www.adultempire.com/unlimited/promo?"]=
-[href*=3D"&partner_id=3D"], :root a[href^=3D"https://1betandgonow.com/"], :=
-root [href=3D"https://ourgoldguy.com/contact/"] img, :root a[href^=3D"https=
-://brightadnetwork.com/"], :root [href^=3D"https://www.avantlink.com/click.=
-php"] img, :root a[href^=3D"http://www.onwebcam.com/random?t_link=3D"], :ro=
-ot a[href^=3D"http://www.mrskin.com/tour"], :root a[href^=3D"https://agacel=
-ebir.com/"], :root a[href^=3D"https://spygasm.com/track?"], :root a[href^=
-=3D"http://d2.zedo.com/"], :root a[href^=3D"http://www.friendlyduck.com/AF_=
-"], :root a[href^=3D"http://trk.globwo.online/"], :root a[href^=3D"http://t=
-raffic.tc-clicks.com/"], :root a[href^=3D"http://tour.mrskin.com/"], :root =
-a[href^=3D"https://funkydaters.com/"], :root [id^=3D"ad_sky"], :root a[href=
-^=3D"http://https://www.get-express-vpn.com/offer/"], :root div[id^=3D"goog=
-le_dfp_"], :root a[href^=3D"http://googleads.g.doubleclick.net/pcs/click"],=
- :root [href^=3D"http://go.cm-trk2.com/"], :root a[href^=3D"http://click.pa=
-yserve.com/"], :root a[href^=3D"https://porngames.adult/?SID=3D"], :root a[=
-href^=3D"https://landing1.brazzersnetwork.com"], :root #slashboxes > .deals=
--rail, :root [href^=3D"http://globsads.com/"], :root [href^=3D"https://www.=
-brighteonstore.com/products/"] img, :root a[href^=3D"http://bc.vc/?r=3D"], =
-:root a[href^=3D"https://mityneedn.com/"], :root [href^=3D"http://homemovie=
-stube.com/"], :root a[href^=3D"http://ad.doubleclick.net/"], :root a[href^=
-=3D"//zunsoach.com/"], :root a[href^=3D"http://static.fleshlight.com/images=
-/banners/"], :root a[href^=3D"https://a.adtng.com/"], :root a[href^=3D"//pu=
-bads.g.doubleclick.net/"], :root a[href^=3D"https://femglobal.app/"], :root=
- a[href^=3D"//go.eabids.com/"], :root a[data-url^=3D"http://paid.outbrain.c=
-om/network/redir?"] + .author, :root [href^=3D"https://join.playboyplus.com=
-/track/"], :root a[href^=3D"//ardslediana.com/"], :root [data-d-ad-id], :ro=
-ot a[href*=3D".engine.adglare.net/"], :root [href^=3D"https://awbbjmp.com/"=
-], :root a[href^=3D"https://tracker.loropartners.com/"], :root #kt_player >=
- a[target=3D"_blank"], :root a[href*=3D".cfm?fp=3D"][href*=3D"&maxads=3D"],=
- :root [data-ad-width], :root a[href^=3D"http://bodelen.com/"], :root a[dat=
-a-oburl^=3D"https://paid.outbrain.com/network/redir?"], :root [href^=3D"htt=
-ps://cpa.10kfreesilver.com/"], :root a[href^=3D"https://a.bestcontentfood.t=
-op/"], :root a[href^=3D"http://wct.link/"], :root [href^=3D"https://goldfor=
-yourfuture.com/clk.trk"] img, :root [href^=3D"https://infinitytrk.com/"], :=
-root [onclick^=3D"location.href=3D'http://www.reimageplus.com"], :root [id^=
-=3D"section-ad-banner"], :root a[href^=3D"https://go.julrdr.com/"], :root .=
-trc_rbox_div .syndicatedItemUB, :root [href^=3D"https://zone.gotrackier.com=
-/"], :root a[href^=3D"https://visit-website.com/"], :root [href^=3D"https:/=
-/detachedbates.com/"], :root [href^=3D"https://www.targetingpartner.com/"],=
- :root a[href^=3D"https://fourwhenstatistics.com/"], :root [href^=3D"https:=
-//www.restoro.com/"], :root a[href^=3D"https://join.virtuallust3d.com/"], :=
-root .section-subheader > .section-hotel-prices-header, :root [href^=3D"htt=
-ps://go.affiliatexe.com/"], :root [href^=3D"https://www.hostg.xyz/"] > img,=
- :root [href^=3D"https://ilovemyfreedoms.com/landing-"], :root a[href^=3D"h=
-ttps://staRTgaming.net/tienda/"], :root a[href^=3D"https://STaRtgAmInG.net/=
-tienda/"], :root a[href^=3D"http://adultfriendfinder.com/go/"], :root a[hre=
-f^=3D"https://fastestvpn.com/lifetime-special-deal?a_aid=3D"], :root a[href=
-^=3D"https://tour.mrskin.com/"], :root div[id^=3D"ad-position-"], :root a[h=
-ref^=3D"http://affiliate.glbtracker.com/"], :root a[href^=3D"https://leg.xy=
-z/?track=3D"], :root div[id^=3D"crt-"][style], :root a[href^=3D"http://adul=
-tgames.xxx/"], :root [href^=3D"https://shiftnetwork.infusionsoft.com/go/"] =
-> img, :root a[onmousedown^=3D"this.href=3D'http://paid.outbrain.com/networ=
-k/redir?"][target=3D"_blank"], :root [href^=3D"https://secure.bmtmicro.com/=
-servlets/"], :root a[href^=3D"https://losingoldfry.com/"], :root .scroll-fi=
-xable.rail-right > .deals-rail, :root [href^=3D"https://routewebtk.com/"], =
-:root a[href^=3D"https://oackoubs.com/"], :root a[href^=3D"https://ak.psalt=
-auw.net/"], :root a[href^=3D"https://go.cmtaffiliates.com/"], :root [data-n=
-ame=3D"adaptiveConstructorAd"], :root [href^=3D"https://optimizedelite.com/=
-"] > img, :root a[href^=3D"https://awptjmp.com/"], :root a[href^=3D"https:/=
-/go.goasrv.com/"], :root [href^=3D"http://mypillow.com/"] > img, :root a[hr=
-ef^=3D"http://bongacams.com/track?"], :root a[href^=3D"https://fleshlight.s=
-jv.io/"], :root [data-ad-manager-id], :root a[href^=3D"https://promo-bc.com=
-/"], :root a[href^=3D"https://clicks.pipaffiliates.com/"], :root [href^=3D"=
-https://noqreport.com/"] > img, :root a[href^=3D"https://www.highperformanc=
-ecpmgate.com/"], :root a[href^=3D"https://t.grtyi.com/"], :root [href^=3D"h=
-ttps://mylead.global/stl/"] > img, :root [href^=3D"https://mypatriotsupply.=
-com/"] > img, :root [data-freestar-ad], :root a[href^=3D"https://fc.lc/ref/=
-"], :root .vid-present > .van_vid_carousel__padding, :root span[data-ez-ph-=
-id], :root [href^=3D"https://track.aftrk1.com/"], :root div[id^=3D"adngin-"=
-], :root [data-rc-widget], :root a[href^=3D"https://go.xxxijmp.com"], :root=
- [href^=3D"https://istlnkcl.com/"], :root [href^=3D"https://go.xlrdr.com"],=
- :root [href^=3D"https://go.4rabettraff.com/"], :root a[href^=3D"https://tm=
--offers.gamingadult.com/"], :root [href^=3D"https://charmingdatings.life/"]=
-, :root [href^=3D"https://glersakr.com/"], :root ins.adsbygoogle, :root a[h=
-ref^=3D"https://1startfiledownload1.com/"], :root .trc_rbox_border_elm .syn=
-dicatedItem, :root a[href^=3D"http://www.onclickmega.com/jump/next.php?"], =
-:root a[href^=3D"https://italarizege.xyz/"], :root a[href^=3D"https://witte=
-red-mainging.com/"], :root [href^=3D"https://engine.gettopple.com/"], :root=
- [data-id^=3D"div-gpt-ad"], :root a[href^=3D"https://k2s.cc/pr/"], :root [h=
-ref^=3D"https://affect3dnetwork.com/track/"], :root a[href^=3D"https://camf=
-apr.com/landing/click/"], :root [href=3D"//sexcams.plus/"], :root a[href^=
-=3D"https://go.currency.com/"], :root [href^=3D"http://www.mypillow.com/"] =
-> img, :root div[id^=3D"div-ads-"], :root [href^=3D"https://rapidgator.net/=
-article/premium/ref/"], :root [href^=3D"https://join3.bannedsextapes.com"],=
- :root div[data-spotim-slot], :root [href^=3D"https://antiagingbed.com/disc=
-ount/"] > img, :root a[href^=3D"https://go.247traffic.com/"], :root [href^=
-=3D"https://join.girlsoutwest.com/"], :root [href^=3D"http://trafficare.net=
-/"], :root a[href^=3D"https://tc.tradetracker.net/"] > img, :root a[href^=
-=3D"https://adserver.adreactor.com/"], :root [href^=3D"http://join.shemales=
-fromhell.com/"], :root [id^=3D"ad_slider"], :root #searchResultsList > div =
-> div[onclick$=3D"'inline.ad'});"], :root [data-adbridg-ad-class], :root a[=
-href^=3D"http://www.adultdvdempire.com/?partner_id=3D"][href*=3D"&utm_"], :=
-root [href^=3D"http://join.shemale.xxx/"], :root a[href^=3D"https://ads.bet=
-fair.com/redirect.aspx?"], :root [href^=3D"http://www.fleshlightgirls.com/"=
-], :root [href^=3D"http://join.trannies-fuck.com/"], :root .trc_rbox .syndi=
-catedItem, :root a[href^=3D"http://cam4com.go2cloud.org/aff_c?"], :root a[h=
-ref^=3D"https://thefacux.com/"], :root a[href^=3D"https://ads.planetwin365a=
-ffiliate.com/redirect.aspx?"], :root [href^=3D"http://join.rodneymoore.com/=
-"], :root [href^=3D"https://shrugartisticelder.com"], :root a[href^=3D"http=
-s://staRTgamIng.net/tienda/"], :root div[id^=3D"lazyad-"], :root a[href^=3D=
-"http://com-1.pro/"], :root [name^=3D"google_ads_iframe"], :root [href=3D"h=
-ttps://www.masstortfinancing.com/"] > img, :root .ob_container .item-contai=
-ner-obpd, :root [id^=3D"div-gpt-ad"], :root [href^=3D"https://mypillow.com/=
-"] > img, :root [href^=3D"https://ad.admitad.com/"], :root [data-testid=3D"=
-ad_testID"], :root a[href^=3D"https://u.expresstech.io/"], :root a[href^=3D=
-"https://www.geekbuying.com/dynamic-ads/"], :root a[href^=3D"https://lnkxt.=
-bannerator.com/"], :root [href=3D"https://jdrucker.com/gold"] > img, :root =
-[href^=3D"https://v.investologic.co.uk/"], :root [href^=3D"https://mystore.=
-com/"] > img, :root ads-right, :root [href^=3D"https://cipledecline.buzz/"]=
-, :root a[href^=3D"https://go.xxxjmp.com"], :root #leader-companion > a[hre=
-f], :root [data-desktop-ad-id], :root [href^=3D"https://wct.link/"], :root =
-div[recirculation-ad-container], :root [href^=3D"https://traffserve.com/"],=
- :root a[href^=3D"https://track.ultravpn.com/"], :root [href^=3D"https://go=
-ldcometals.com/clk.trk"], :root a[href^=3D"https://go.hpyjmp.com"], :root [=
-data-mobile-ad-id], :root a[href^=3D"http://tc.tradetracker.net/"] > img, :=
-root a[href^=3D"http://affiliates.thrixxx.com/"], :root [data-ad-name], :ro=
-ot [data-ez-name], :root a[data-widget-outbrain-redirect^=3D"http://paid.ou=
-tbrain.com/network/redir?"], :root [data-dynamic-ads], :root a[href^=3D"htt=
-p://go.xtbaffiliates.com/"], :root a[href^=3D"https://consali.com/"], :root=
- .grid > .container > #aside-promotion, :root dfp-ad, :root .trc_related_co=
-ntainer div[data-item-syndicated=3D"true"], :root a[href^=3D"https://www.li=
-quidfire.mobi/"], :root [href^=3D"https://click2cvs.com/"], :root a[href^=
-=3D"https://startgAming.net/tienda/"], :root [href^=3D"https://safer-redire=
-ction.com"], :root [onclick*=3D"content.ad/"], :root amp-ad, :root [data-ad=
--cls], :root [id^=3D"ad-wrap-"], :root div[id^=3D"taboola-stream-"], :root =
-[href^=3D"https://go.astutelinks.com/"], :root [class^=3D"amp-ad-"], :root =
-[href^=3D"https://affiliate.fastcomet.com/"] > img, :root [class^=3D"adDisp=
-lay-module"], :root ad-slot, :root a[href^=3D"https://go.xlviiirdr.com"], :=
-root [href^=3D"http://join.shemalepornstar.com/"], :root a[href^=3D"http://=
-partners.etoro.com/"], :root [data-advadstrackid], :root [href^=3D"https://=
-trackfin.asia/"], :root .plistaList > .plista_widget_underArticle_item[data=
--type=3D"pet"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root .tr=
-c_rbox_div .syndicatedItem, :root div[data-adunit], :root app-large-ad, :ro=
-ot [href^=3D"https://turtlebids.irauctions.com/"] img, :root [data-ad-modul=
-e], :root .plistaList > .itemLinkPET, :root [href^=3D"https://gmxvmvptfm.co=
-m/"], :root a[href^=3D"https://bs.serving-sys.com"], :root [href^=3D"http:/=
-/residenceseeingstanding.com/"], :root a[href*=3D"//lkstrck2.com/"], :root =
-a[href^=3D"https://traffdaq.com/"], :root [class^=3D"div-gpt-ad"], :root a[=
-href^=3D"https://refpazkjixes.top/"], :root #mgb-container > #mgb, :root [h=
-ref^=3D"https://www.cloudways.com/en/?id"], :root a[href^=3D"https://trk.sp=
-ortsflix4k.club/"], :root a[href^=3D"https://go.xlivrdr.com"], :root a[href=
-^=3D"https://cam4com.go2cloud.org/"], :root a[href^=3D"http://li.blogtrottr=
-.com/click?"] { display: none !important; }
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.gstatic.com/recaptcha/releases/3kTz7WGoZLQTivI-amNftGZO/styles__ltr.css
@@ -16134,7 +15476,7 @@ ne: none; width: 270px; }
 er: 1px solid rgb(255, 0, 0); }
 
 sentinel { }
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.gstatic.com/recaptcha/api2/logo_48.png
@@ -16180,18 +15522,18 @@ THnHOzs7r4yMjPzdYDDMQn9+gDIxMTE7PDz8RVtb25Vdu3YdX7duXRV+QU/EZQTNc1k+rxaR4C3z
 CLzjkARBM9kavIOQhT+n4++ewL8Nxtc+0jc5tow/hgrk2UmQ4N/4DPp/N0P1KyiVEy8AAAAASUVO
 RK5CYII=
 
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/html
-Content-ID: <frame-57890322E1571388D5C6771C127203AD@mhtml.blink>
+Content-ID: <frame-74E8741BA119E70D568924C3990256B9@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP----
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18----
 Content-Type: text/html
-Content-ID: <frame-1AC50248369B3B712D7D915F78A8B5AE@mhtml.blink>
+Content-ID: <frame-380F5219B0FFAA9812700762D19FD872@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--Mjg31A1wrfPc4jYuT4iX4px1ul0b14Lw18DpXBMqAP------
+------MultipartBoundary--R2T08Ll9M7P0MwMssZeI63SM25V7crPBxrADYJPo18------

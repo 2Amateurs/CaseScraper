@@ -1,79 +1,156 @@
+import time
+start_time = time.time()
 import linecache
 import re
 import pandas as pd
 import os
+from datetime import date
 
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
-readPartyPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Montgomery_Clerk_of_Courts_HTML_Grabber\Montgomery County Clerk of Courts " 
-readSummaryPath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Montgomery_Clerk_of_Courts_HTML_Grabber\Montgomery County Clerk of Courts "
+readFolder = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Data\Montgomery County Clerk of Courts"
+readPath = readFolder + r"\Montgomery County Clerk of Courts "  #I'm using Case# 23CV17209 for testing
 writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Montgomery_Clerk_of_Courts_HTML_Grabber\Output\ " #The space here is NECESSARY so that it can terminate the string 
 countyName = "Montgomery" #PLACEHOLDER
-companyName = "Midland" #PLACEHOLDER
-beginDate = "2023-8-6" #PLACEHOLDER
-endDate = "2023-8-12" #PLACEHOLDER
-caseSummaryKeywords = ["CREDITOR", "DEBTOR", "File Date:", "Nuts", "Court:", "Bananas:"] #"Nut" and "Bannanna:" was/is used to test for unfindable keywords
+companyNames = "" #PLACEHOLDER
+dateToday = str(date.today())
+
+#party then summary
+keyDictionary = {
+    #Party:
+    "Plaintiff Name": "PLAINTIFF", 
+    "Plaintiff Address": "Address:", 
+    "Party": "Null", 
+    "Attorney": "Attorney:", #REMEMBER TO SUBSTITUTE THE "(s)"
+    "Attorney Address": "<br>", 
+    "Court ID": "Null", 
+    "Defendant Name": "DEFENDANT", 
+    "Defendant Address": "Address", 
+    "Defendant Party": "Null", 
+
+    #Summary:
+    "Case Number": "CaseInf", 
+    "Court": "Court:", 
+    "Case Caption": "Null", 
+    "Judge": "Null", 
+    "Filed Date": "File Date:", 
+    "Case Type": "Null", 
+    "Nuts": "nuts", 
+    "Amount": "Null", 
+    "Bananas":"bananas" 
+    }
+
+#{'Plaintiff Name', 'Plaintiff Address', 'Party', 'Attorney', 'Attorney Address', 'Court ID', 'Defendant Name', 'Defendant Address', 'Defendant Party', 'Case Number', 'Court', 'Case Caption', 'Judge', 'Filed Date', 'Case Type', 'Nuts', 'Amount', 'Bananas'}
+caseSummaryKeywords = ["PLAINTIFF", "DEFENDANT", "File Date:", "Nuts", "Court:", "Bananas:"] #"Nut" and "Bannanna:" was/is used to test for unfindable keywords
 casePartyKeywords = ["Plaintiff Address", "Attorney", "Nuts", "Defendant Address", "Bananas:"]
 data = {}
 
-def createDictionary(caseSummaryKeywords, casePartyKeywords):
-    #Source: https://sparkbyexamples.com/pandas/pandas-write-to-excel-with-examples/#:~:text=Use%20pandas%20to_excel()%20function,sheet%20name%20to%20write%20to.
+testString = "120340567089"
+print(testString[1:])
+print(testString[-1:])
+print(testString[:1])
+print(testString[:-1])
+print(testString.find("0"))
+testValue = 4/9
+print(testValue)
+testValue = round(testValue)
+print(testValue)
+print("\n")
+
+
+def createDictionary(Keys):
+    print("\nStart createDictionary:")
     #Adds new dictionary keys for each case Keyword
-    for keyword in range(0, len(casePartyKeywords) - 1):
-        data[re.sub('[:]', "", casePartyKeywords[keyword])] = []
-    for keyword in range(0, len(caseSummaryKeywords) - 1):
-        data[re.sub('[:]', "", caseSummaryKeywords[keyword])] = []        
-        print(str(keyword))
-        print(casePartyKeywords[keyword])
-        # if str(keyword[-2]) != "s":
-        #     data[re.sub('[:]', "", caseSummaryKeywords[keyword])] = []
-        # else:
-        #     print("NOPE")
+    for keyword in Keys:
+        data[keyword] = []
 
-
-
-
-
-#1: 2023 CVF 00952 W
-#2: 2023 CVF 00949 W
-#3: 2023 CJ 222904
-#Summary info #490 "Case Information" and "Judgment Information"
-#Party info #542 "Party Information" + 2 lines
-
-
-
-
-
-def searchHTML(readPath, searchFor):
-    #Source: https://pynative.com/python-search-for-a-string-in-text-files/#:~:text=Open%20a%20file%20in%20a,current%20line%20and%20line%20number.
+def searchHTML(readPath, identifierString):
     with open(readPath, 'r') as file:
         for lineNumber, line in enumerate(file):
-            if str(searchFor) in line:
-                return(lineNumber)
-                break
+            if str(identifierString) in line:
+                return(lineNumber + 1)
 
-createDictionary(caseSummaryKeywords, casePartyKeywords)
-filenum = "3"
-linenum = searchHTML(readPartyPath + "Party " + str(filenum) + ".mhtml", "Address:") + 1
-line = linecache.getline(readPartyPath + "Party " + str(filenum) + ".mhtml", linenum)
-#print(line)
-for info in casePartyKeywords:
-    print(line.find(info))
-    if line.find(info) != -1:
-        for counter in range(0, line.find(info) + len(info) + 1):
-            #Slicing 1st character off of the beginning of the string. Source: https://stackoverflow.com/a/64976733 AND https://www.scaler.com/topics/python-slice/ AND https://docs.python.org/3/library/functions.mhtml?highlight=slice#slice
-            #print(line)
-            line = line[1:]
-        print(line)
-        if line[0] == "s": #Source: https://stackoverflow.com/questions/8848294/how-to-get-char-from-string-by-index
-            line = line[3:]
-        elif line[0]== "<":
-            data[info].append("")
-        line = line[13:]
-    else:
-        pass
-    print(info + "\n")
-    print(line + "\n")
-print(data)
+createDictionary(keyDictionary)
+filenum = "6"
+partyOrSummary = "Party"
+filePath = readPath + partyOrSummary + " " + str(filenum) + ".mhtml"
+linenum = searchHTML(filePath, "caseInfo_" + partyOrSummary)
+
+# linenum = searchHTML(readPath + "Summary " + str(filenum) + ".mhtml", "caseInfo_Summary")
+# print(linenum)
+# print(linecache.getline(readPath + "Summary " + str(filenum) + ".mhtml", linenum))
+# print(linecache.getline(readPath + "Summary " + str(filenum) + ".mhtml", linenum)[-2])
+
+
+def makeLine(filePath):
+    # print("\nStart makeLine:")
+    linebreak = 0
+    while str(linecache.getline(filePath, linenum + linebreak)[-2]) != "=":
+        linebreak += 1
+    line = str(linecache.getline(filePath, linenum + linebreak))[:-2]
+    while str(linecache.getline(filePath, linenum + linebreak)[-2]) == "=":
+        linebreak += 1
+        line += str(linecache.getline(filePath, linenum + linebreak))[:-2]
+    return(line)
+
+print(makeLine(filePath))
+# print(keyDictionary.keys())
+# print(list(keyDictionary.keys())[0])
+def harvestData():
+    print("\nStart harvest Data:")
+    line = makeLine(filePath)
+    # print(list(keyDictionary.values())[0])
+    for keyword in list(keyDictionary.values()):
+        print("|")
+        print(keyword)
+        print(int(line.find(keyword)))
+        if line.find(keyword) != -1:
+            if keyword == "PLAINTIFF" or keyword == "DEFENDANT":
+                line = line[int(line.find("<strong>")) + 8:]
+                print(re.sub("[b]", " ", re.sub("[<r>]", "",line[:int(line.find("</strong>"))])))
+                print("|\n")
+            elif keyword == "Attorney:":
+                line = line[int(line.find(keyword)) + len(keyword) + 13:]
+                print(re.sub("[b]", " ", re.sub("[<r>]", "",line[:int(line.find("<br>"))])))
+                print("|\n")
+            else:
+                line = line[int(line.find(keyword)) + len(keyword) + (round(len(keyword)/9) * 13):]
+                print(re.sub("[b]", " ", re.sub("[<r>]", "",line[:int(line.find("</div>"))])))
+                print("|\n")
+        else:
+            print("|\n")
+harvestData()
+
+    
+
+
+#Party info #542 "Party Information" + 2 lines | caseInfo_Party | 
+#Summary info #490 "Case Information" and "Judgment Information" | caseInfo_Summary
+
+
+
+# createDictionary(caseSummaryKeywords, casePartyKeywords)
+# filenum = "3"
+# linenum = searchHTML(readPath + "Party " + str(filenum) + ".mhtml", "Address:") + 1
+# line = linecache.getline(readPath + "Party " + str(filenum) + ".mhtml", linenum)
+# #print(line)
+# for info in casePartyKeywords:
+#     print(line.find(info))
+#     if line.find(info) != -1:
+#         for counter in range(0, line.find(info) + len(info) + 1):
+#             #Slicing 1st character off of the beginning of the string. Source: https://stackoverflow.com/a/64976733 AND https://www.scaler.com/topics/python-slice/ AND https://docs.python.org/3/library/functions.mhtml?highlight=slice#slice
+#             #print(line)
+#             line = line[1:]
+#         print(line)
+#         if line[0] == "s": #Source: https://stackoverflow.com/questions/8848294/how-to-get-char-from-string-by-index
+#             line = line[3:]
+#         elif line[0]== "<":
+#             data[info].append("")
+#         line = line[13:]
+#     else:
+#         pass
+#     print(info + "\n")
+#     print(line + "\n")
+# print(data)
 
 #MAKE SURE TO REMOVE THE "Plaintiff" and "Defendant" FROM THE BEGINNING OF THE ADDRESSES IN caseParty
 
@@ -124,3 +201,5 @@ print(data)
 
 
 #exportToExcel(data, writePath, countyName, companyName, beginDate, endDate)
+
+print("Process finished --- %s seconds ---" % (time.time() - start_time))

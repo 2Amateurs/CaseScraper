@@ -7,7 +7,7 @@ import os
 from datetime import date
 
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
-readFolder = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Data\Hamilton"
+readFolder = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Data\Hamilton County Clerk of Courts"
 readPath = readFolder + r"\Hamilton County Clerk of Courts "  #I'm using Case# 23CV17209 for testing
 writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Hamilton_Clerk_of_Courts_HTML_Grabber\Output\ " #The space here is NECESSARY so that it can terminate the string 
 countyName = "Hamilton" #PLACEHOLDER
