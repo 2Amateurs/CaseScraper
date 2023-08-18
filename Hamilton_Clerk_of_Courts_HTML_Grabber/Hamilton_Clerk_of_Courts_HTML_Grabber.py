@@ -4,7 +4,7 @@ import linecache
 import re
 import pandas as pd
 import os
-from datetime import date
+import datetime
 
 #The "r" is neccesary because it converts a normal string to a raw string. See https://stackoverflow.com/questions/37400974/error-unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3
 readFolder = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Data\Hamilton County Clerk of Courts"
@@ -12,7 +12,8 @@ readPath = readFolder + r"\Hamilton County Clerk of Courts "  #I'm using Case# 2
 writePath = r"C:\Users\profs\Desktop\Joshua\CaseScraper\CaseScraper\Hamilton_Clerk_of_Courts_HTML_Grabber\Output\ " #The space here is NECESSARY so that it can terminate the string 
 countyName = "Hamilton" #PLACEHOLDER
 companyNames = "" #PLACEHOLDER
-dateToday = str(date.today())
+endDate = datetime.date.today()
+startDate = str((endDate - datetime.timedelta(days=7)).isoformat())
 caseKeywords = ["Case Number:", "Court:", "Case Caption:", "Judge:", "Filed Date:", "Case Type", "Nuts", "Amount:", "Bananas:"] #"Nut" and "Bannanna:" was/is used to test for unfindable keywords
 partyCaseKeywords = ["Plaintiff Name", "Plaintiff Address", "Party", "Attorney", "Attorney Address", "Court ID", "Defendant Name", "Defendant Address", "Defendant Party"]
 data = {}
@@ -70,9 +71,9 @@ def harvestData(readPath, caseKeywords, partyCaseKeywords):
         for keyword in range(0, len(caseKeywords)):
             data[re.sub('[:]', "", caseKeywords[keyword])].pop(-1)
 
-def exportToExcel(data, writePath, countyName, companyName, dateToday):
+def exportToExcel(data, writePath, countyName, companyName, startDate, endDate):
     dataFrame = pd.DataFrame(data)
-    dataFrame.to_excel(str(re.sub("[ ]", "", writePath)) + " " + countyName + " " + companyName + " " + dateToday + ".xlsx")
+    dataFrame.to_excel(str(re.sub("[ ]", "", writePath)) + countyName + " " + companyName + " " + str(startDate) + " to " + str(endDate) + ".xlsx")
 
 createDictionary(caseKeywords, partyCaseKeywords)
 # print("\n" + "Created (but empty) Excel Sheet: ")
@@ -85,6 +86,6 @@ for number in range(1, len(os.listdir(readFolder)) + 1):
     harvestData(readPath + str(number) + ".mhtml", caseKeywords, partyCaseKeywords)
 # for key, value in data.items():
 #     print(key, value)
-exportToExcel(data, writePath, countyName, companyNames, dateToday)
+exportToExcel(data, writePath, countyName, companyNames, startDate, str(endDate))
 
 print("Process finished --- %s seconds ---" % (time.time() - start_time))
